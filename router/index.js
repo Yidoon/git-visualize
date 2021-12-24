@@ -11,7 +11,8 @@ const { excuteCommand } = require("../utils");
 const router = new Router({
   prefix: "/gv",
 });
-const CRM_PATH = "/Users/yidoon/Desktop/shifang/crm-fe";
+// const CRM_PATH = "/Users/yidoon/Desktop/shifang/crm-fe";
+const CRM_PATH = "/Users/abc/Desktop/Project/crm-fe";
 /**
  * init
  * start with local repo path
@@ -50,6 +51,14 @@ router.get("/repo_info", async (ctx) => {
       first_commit_date,
       code_line_number,
     },
+  };
+});
+router.get("/week_commit", async (ctx) => {
+  const res = await statisticsService.getWeekCommitView(CRM_PATH);
+  ctx.body = {
+    code: "0",
+    msg: "",
+    data: res,
   };
 });
 

@@ -1,4 +1,5 @@
-const { excuteCommand } = require("../utils");
+const { excuteCommand, getNearlyDays } = require("../utils");
+const dayjs = require("dayjs");
 const nodejieba = require("nodejieba");
 
 const BLACK_LIST = [];
@@ -97,6 +98,40 @@ const getWordCloud = async (repoPath) => {
     };
   }
 };
+const getWeekCommitView = async (repoPath) => {
+  const result = [];
+  const daysArr = getNearlyDays(14);
+  let cmdStr = "";
+  let startDay, endDay;
+  let tempRes;
+  for (let i = 0, len = daysArr.length; i < len; i++) {
+    startDay = dayjs(daysArr[i]).startOf("day");
+    endDay = dayjs(daysArr[i]).endOf("day");
+    cmdStr = `git log  --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Cblue %s %Cgreen(%cd) %C(bold blue)<%an>%Creset' --before="${endDay}" --after="${startDay}" --date=format:'%Y-%m-%d %H:%M:%S' --no-merges | wc -l`;
+    tempRes = await excuteCommand(cmdStr, repoPath);
+    result.push({ date: daysArr[i], count: Number(tempRes.trim()) });
+  }
+  const weekCommit = result.slice(7, 14);
+  const preWeekCommit = result.slice(0, 7);
+  const weekCommitCount = weekCommit.reduce((pre, next) => {
+    return pre + next.count;
+  }, 0);
+  const preWeekCommitCount = preWeekCommit.reduce((pre, next) => {
+    return pre + next.count;
+  }, 0);
+  console.log(weekCommitCount, "weekCommitCount");
+  console.log(preWeekCommitCount, "preWeekCommitCount");
+  const abs = Math.abs(weekCommitCount - preWeekCommitCount);
+  const rate = abs / weekCommitCount;
+  console.log(result, "getWeekCommitView");
+  console.log(rate, "rate");
+  return {
+    week_commit: weekCommit,
+    total_week_commit_count: weekCommitCount,
+    up_rate: (rate * 100).toFixed(2),
+  };
+};
 module.exports = {
   getWordCloud,
+  getWeekCommitView,
 };

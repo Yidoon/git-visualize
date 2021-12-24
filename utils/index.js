@@ -1,6 +1,7 @@
 const childProcess = require("child_process");
 const process = require("process");
 const stream = require("stream");
+const dayjs = require("dayjs");
 const { chdir } = process;
 
 const excuteCommand = async (command, path) => {
@@ -51,7 +52,17 @@ const createDataParser = (formatCb) => {
   return strm;
 };
 
+const getNearlyDays = (day) => {
+  const today = dayjs();
+  const result = [];
+  for (let i = day; i > 0; i--) {
+    result.push(today.subtract(i, "day").format("YYYY-MM-DD"));
+  }
+  return result;
+};
+
 module.exports = {
   excuteCommand,
   createDataParser,
+  getNearlyDays,
 };
