@@ -11,8 +11,9 @@ const { excuteCommand } = require("../utils");
 const router = new Router({
   prefix: "/gv",
 });
-// const CRM_PATH = "/Users/yidoon/Desktop/shifang/crm-fe";
-const CRM_PATH = "/Users/abc/Desktop/Project/crm-fe";
+
+const CRM_PATH = "/Users/yidoon/Desktop/shifang/crm-fe";
+// const CRM_PATH = "/Users/abc/Desktop/Project/crm-fe";
 /**
  * init
  * start with local repo path
@@ -36,7 +37,7 @@ router.get("/repo_info", async (ctx) => {
     `git log master --pretty='%ad' --date=format:'%Y-%m-%d' | tail -1`,
     CRM_PATH
   );
-  const contributors = await contributorService.getContributor();
+  const contributors = await contributorService.getContributor(CRM_PATH);
   const code_line_number = await repoService.getCodeLineNumOfRepo(CRM_PATH);
   const total_commit_count = contributors.reduce((cur, next) => {
     return cur + Number(next.commit_count);
@@ -61,11 +62,31 @@ router.get("/week_commit", async (ctx) => {
     data: res,
   };
 });
-
+router.get("/contributors_data", async (ctx) => {
+  const res = await contributorService.getContributorCommitData(CRM_PATH);
+  ctx.body = {
+    code: 0,
+    msg: "",
+    data: res,
+  };
+});
+router.get("/commit_by_month", async (ctx) => {
+  const query = ctx.query;
+  const { contributor } = query;
+  const res = await contributorService.getContributorCommitDataByMonth(
+    CRM_PATH,
+    contributor || undefined
+  );
+  console.log(res, "commit_by_month");
+  ctx.body = {
+    code: 0,
+    msg: "",
+    data: res,
+  };
+});
 // branch
 router.get("/branchs", async (ctx) => {
   const res = await branchService.getLocalBranches(CRM_PATH);
-  console.log(res, "resss");
   ctx.response.body = res;
 });
 
@@ -77,7 +98,14 @@ router.get("/search", () => {});
  * commit statistics of different contributor
  *
  */
-router.get("/contributors", () => {});
+router.get("/contributors", async (ctx) => {
+  const contributors = await contributorService.getContributor(CRM_PATH);
+  ctx.body = {
+    code: 0,
+    msg: "",
+    data: contributors,
+  };
+});
 
 /**
  * Top 10 contributors
@@ -90,21 +118,37 @@ router.get("/statistics", async (ctx) => {
   // console.log(res, 'route-res');
   ctx.response.body = res;
 });
-router.get("/statistics/file_commit_top10", async (ctx) => {
+router.get("/file_commit_top10", async (ctx) => {
   const res = await fileService.getFileCommitTop10(CRM_PATH);
-  ctx.response.body = res;
+  ctx.body = {
+    code: 0,
+    msg: "",
+    data: res,
+  };
+});
+router.get("/file_line_code_top10", async (ctx) => {
+  const res = await fileService.getFileLineCodeTop10(CRM_PATH);
+  ctx.body = {
+    code: 0,
+    msg: "",
+    data: res,
+  };
 });
 router.get("/repo_code_line_number", async (ctx) => {
   const res = await repoService.getCodeLineNumOfRepo(CRM_PATH);
-  console.log(res, "ress");
   ctx.response.body = {
     code: res,
   };
 });
 router.get("/word_could", async (ctx) => {
-  const res = await statisticsService.getWordCloud(CRM_PATH);
-  console.log(res);
-  ctx.response.body = res;
+  const query = ctx.query;
+  const { contributor } = query;
+  const res = await statisticsService.getWordCloud(CRM_PATH, contributor);
+  ctx.body = {
+    code: 0,
+    msg: "",
+    data: res,
+  };
 });
 /**
  * the keywords of different contributors

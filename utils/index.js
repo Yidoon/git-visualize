@@ -4,6 +4,8 @@ const stream = require("stream");
 const dayjs = require("dayjs");
 const { chdir } = process;
 
+const formatStr = "YYYY-MM-DD HH:mm:ss";
+
 const excuteCommand = async (command, path) => {
   chdir(path);
   return new Promise((resolve, reject) => {
@@ -61,8 +63,29 @@ const getNearlyDays = (day) => {
   return result;
 };
 
+const getMonthOfYear = () => {
+  const startYear = dayjs().startOf("year").format(formatStr);
+  const monthArr = [];
+  for (let i = 1; i < 12; i++) {
+    let temp = {
+      start: dayjs(startYear)
+        .add(i, "month")
+        .startOf("month")
+        .format(formatStr),
+      end: dayjs(startYear).add(i, "month").endOf("month").format(formatStr),
+    };
+    monthArr.push(temp);
+  }
+  monthArr.unshift({
+    start: dayjs(startYear).startOf("month").format(formatStr),
+    end: dayjs(startYear).endOf("month").format(formatStr),
+  });
+  return monthArr;
+};
+
 module.exports = {
   excuteCommand,
   createDataParser,
   getNearlyDays,
+  getMonthOfYear,
 };

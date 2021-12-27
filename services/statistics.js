@@ -49,8 +49,9 @@ const mergeSplitData = (baseData, addData) => {
 
   return baseData;
 };
-const getWordCloud = async (repoPath) => {
-  const cmdStr = "git log --no-merges --pretty='%an,%B<vsz />'";
+const getWordCloud = async (repoPath, contributor) => {
+  const authorStr = contributor ? `author="${contributor}"` : "";
+  const cmdStr = `git log --no-merges ${authorStr} --pretty='%an,%B<vsz />'`;
   const authorCommitMsg = {};
   const result = {};
   const pattern = /([^,]+)(.*)/;
@@ -88,7 +89,7 @@ const getWordCloud = async (repoPath) => {
         });
       }
 
-      result[name] = sortArray.sort((a, b) => b.value - a.value).slice(0, 100);
+      result[name] = sortArray.sort((a, b) => b.value - a.value).slice(0, 200);
     });
     return result;
   } catch (e) {
@@ -119,12 +120,8 @@ const getWeekCommitView = async (repoPath) => {
   const preWeekCommitCount = preWeekCommit.reduce((pre, next) => {
     return pre + next.count;
   }, 0);
-  console.log(weekCommitCount, "weekCommitCount");
-  console.log(preWeekCommitCount, "preWeekCommitCount");
   const abs = Math.abs(weekCommitCount - preWeekCommitCount);
   const rate = abs / weekCommitCount;
-  console.log(result, "getWeekCommitView");
-  console.log(rate, "rate");
   return {
     week_commit: weekCommit,
     total_week_commit_count: weekCommitCount,

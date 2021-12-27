@@ -63,7 +63,6 @@ const calcFileCodeLine = async (file) => {
 };
 const getFileCommitCount = async (file, repoPath) => {
   const cmdStr = `git log --oneline --no-merges '${file}' | wc -l`;
-  console.log(cmdStr, "cmdStr");
   const res = await excuteCommand(cmdStr, repoPath);
   return res;
 };
@@ -85,28 +84,19 @@ const traverRepoToGetInfo = async (repoPath) => {
           await loop(file);
         } else {
           const fileSize = calcFileSize(file);
-          const fileCommitCount =
-            // console.log(fileSize, file);
-            (fileSizeMap[`${file}`] = fileSize);
-          //   console.log(file, '=====');
+          const fileCommitCount = (fileSizeMap[`${file}`] = fileSize);
           try {
             fileCommitCountMap[`${file}`] = await getFileCommitCount(
               file,
               repoPath
             );
-          } catch {
-            // console.log(fileName, 'fileName');
-            // console.log(path, 'path');
-            // console.log(`${path}/${fileName}`, '=====');
-            // console.log(file.replace(/(\ )/g, '\\$1'), '++++');
-          }
+          } catch {}
           fileCount += 1;
         }
       }
     }
   };
   await loop(repoPath);
-  //   console.log(fileSizeMap, "2");
   const arr = Object.keys(fileSizeMap).map((key) => {
     return {
       count: fileSizeMap[key],
@@ -121,8 +111,6 @@ const traverRepoToGetInfo = async (repoPath) => {
     return b.count - a.count;
   });
   const top10FileArr = sortArr.slice(0, 10);
-  //   console.log(totalSize);
-  console.log(fileCommitCountMap, "fileCommitCountMap");
   return {
     // fileCodeLineMap,
     // fileSizeMap,
@@ -136,8 +124,8 @@ const traverRepoToGetInfo = async (repoPath) => {
 const getRepoCodeLine = async (repoPath) => {
   const cmdStr = `git log  --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added lines: %s, removed lines: %s, total lines: %s\n", add, subs, loc }';
     `;
-    const res = await excuteCommand(cmdStr, repoPath);
-    console.log(res, 'res');
+  const res = await excuteCommand(cmdStr, repoPath);
+  console.log(res, "res");
 };
 const getRepoFilesInfo = async (repoPath) => {
   const fileInfo = await traverRepoToGetInfo(repoPath);
@@ -156,38 +144,77 @@ const getFileCommitTop10 = async (repoPath) => {
   const cmdStr = "git ls-files";
   const res = await excuteCommand(cmdStr, repoPath);
   const strArr = res.split("\n");
+  const filterArr = strArr.filter((path) => {
+    return (
+      path !== "src/component/special _input/special_input.tsx" &&
+      ["ts", "tsx"].includes(path.split(".")[1])
+    );
+  });
   const fileCommitCountMap = {};
   let cmdStr2 = "";
   let path = "";
-  for (let i = 0; i < strArr.length; i++) {
-    path = strArr[i];
+  for (let i = 0; i < filterArr.length; i++) {
+    path = filterArr[i];
     cmdStr2 = `git log --oneline --no-merges ${path} | wc -l`;
-    try {
-      const countStr = await excuteCommand(cmdStr2, repoPath);
-      fileCommitCountMap[path] = countStr.trim();
-    } catch (e) {
-      console.log(path, "path");
-      console.log(cmdStr2, "cmdStr2");
-    }
+    const countStr = await excuteCommand(cmdStr2, repoPath);
+    fileCommitCountMap[path] = countStr.trim();
   }
-  console.log(fileCommitCountMap, "fileCommitCountMap");
   const arrObj = Object.keys(fileCommitCountMap).map((path) => {
     if (path) {
       return {
         path: path,
-        count: fileCommitCountMap[path],
+        change_count: +fileCommitCountMap[path],
       };
     }
   });
   const top10Arr = arrObj
     .sort((a, b) => {
-      return b.count - a.count;
+      return b.change_count - a.change_count;
     })
-    .slice(0, 20);
+    .slice(0, 10);
+  return top10Arr;
+};
+const getFileLineCodeTop10 = async (repoPath) => {
+  const cmdStr = "git ls-files";
+  const res = await excuteCommand(cmdStr, repoPath);
+  const strArr = res.split("\n");
+  const filterArr = strArr.filter((path) => {
+    return (
+      path !== "src/component/special _input/special_input.tsx" &&
+      ["ts", "tsx"].includes(path.split(".")[1])
+    );
+  });
+  const fileLineCodeCountMap = {};
+  let cmdStr2 = "";
+  for (let i = 0; i < filterArr.length; i++) {
+    path = filterArr[i];
+    cmdStr2 = `cat ${path} | wc -l `;
+    if (
+      path !== "src/component/special _input/special_input.tsx" &&
+      ["ts", "tsx"].includes(path.split(".")[1])
+    ) {
+      let fileCodeLine = await excuteCommand(cmdStr2, repoPath);
+      fileLineCodeCountMap[path] = +fileCodeLine.replace("\\n", "");
+    }
+  }
+  const arrObj = Object.keys(fileLineCodeCountMap).map((path) => {
+    if (path) {
+      return {
+        path: path,
+        code_line: +fileLineCodeCountMap[path],
+      };
+    }
+  });
+  const top10Arr = arrObj
+    .sort((a, b) => {
+      return b.code_line - a.code_line;
+    })
+    .slice(0, 10);
   return top10Arr;
 };
 
 module.exports = {
   getRepoFilesInfo,
   getFileCommitTop10,
+  getFileLineCodeTop10,
 };
