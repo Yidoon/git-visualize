@@ -215,9 +215,17 @@ const getCodeLine = async (params, repoPath) => {
   if (!author) return;
   const before = "2021-12-31";
   const after = "2021-01-01";
-  const cmdStr = `git log --author="${author}"  --after="${after}" --before="${before}" --no-merges --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "%s", loc }'`;
+  // const cmdStr = `git log --author="${author}"  --after="${after}" --before="${before}" --no-merges --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "%s", loc }'`;
+  const cmdStr = `git log --author="${author}"  --after="${after}" --before="${before}" --no-merges --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added: %s, removed: %s, total: %s", add, subs, loc }'`;
   const res = await excuteCommand(cmdStr, repoPath);
-  return res;
+  const arr = res.split(",");
+  const arrMap = {};
+  let tempArr = [];
+  arr.forEach((line) => {
+    tempArr = line.split(":");
+    arrMap[tempArr[0].trim()] = Number(tempArr[1].trim());
+  });
+  return arrMap;
 };
 
 // TODO: DONE 计算提交次数最多的一天
@@ -269,7 +277,9 @@ const generateData = async (params) => {
     return {
       first_commit: firstCommit,
       lastest_commit: lastestCommit,
-      code_line: +codeLine,
+      code_line: +codeLine.total,
+      code_add_line: +codeLine.added,
+      code_sub_line: +codeLine.removed,
       commit_count: commitCount,
       most_commit: {
         date: mostCommitDate,
