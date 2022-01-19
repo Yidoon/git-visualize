@@ -1,0 +1,5622 @@
+[
+  {
+    "commit": "c9efec2eb974de374ffeb1bf578c4bc5e04e4281",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-12-30 18:14:24",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 【【中台】分配看板-图表的图例需放置在左侧显示】",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "93108dee7e83b9412f9f57db28fb1fd61d57d538",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-12-30 17:45:45",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 用户详情订单信息优化",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "5f6fa5f3ee76dcfa74563b7b6150e683dd4684ae",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-12-30 10:11:09",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 优化赠课获客权限",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "5330a1f7c1b39b4b75e19ffc5f8e15608e79943e",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-12-27 17:03:21",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 分配进度百分比显示不全时增加tooltips",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "ac6a9871a376dd20f735a142c40e2934ab7ad72c",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-12-22 17:14:19",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 优化UI样式",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "b9dae812f53713d34e82dafbf2dfcc5fd2e94c46",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-12-22 15:07:26",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 优化分配看板",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "577f45187f87e16d940d58939b2d8533ecf742b8",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-12-22 14:04:42",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 优化分配看板",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "563f8a7094d801afebc77cf071872a4d5069b0ac",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-12-21 18:42:09",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 合并分配看板逻辑优化",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "54a0456d6efe2fbd35083960b61afaef952cc163",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-12-21 18:28:06",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 报名分析表增加抖店等特殊来源筛选",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "60f5880218d1517b6eb56f80d7e9cd2e69cc1575",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-12-21 18:27:15",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 合并教务中心交付课学员标签",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "f9d46bec99b0213c4bb40e0d88da95d10cef0a6b",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-12-21 16:25:29",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 修改流量池投放价格字段",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "8a33c75af3b65901f5faccc38905ae0155dda41d",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-12-21 15:14:26",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 优化流量池",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "c5b936b3c73db74dd67aeb56f86fc1609ccff5dc",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-12-21 15:09:32",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 流量池优化",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "587ab5855cef39afdc093458a29a0843ee9197e4",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-12-20 15:13:38",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 前端暂时隐藏掉智能标签搜索",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "725662b4ac024d8dbd837b1c00cfa440846b95bf",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-12-20 14:53:18",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 智能标签暂时隐藏掉筛选",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "94af5c19b6dabe0f4bd1a200a4e84bafb02fedc3",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-12-15 10:25:16",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 修复到课情况历史遗留问题",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "abbb32649c2e876e160b4d51e915663b062f8f56",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-12-14 18:22:05",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 优化智能标签",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "959e48ee62b3c1aab6ad2f1827fb3bf785d61e02",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-12-14 18:10:51",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 【【商机管理】商机数据区分渠道分配与自营】",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "9d839b1391ee8f38f273574388f6a350c6504ee0",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-12-14 18:05:52",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:合并智能标签",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "511db1e2fee01c8e0ea4da37ae1ec7b42db39fc3",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-12-07 18:00:10",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 数据看板业务优化需求",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "de80cbfa03d263b399a24ee40d92978c6fae9c10",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-12-07 17:58:51",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 删除商机移交已成交状态",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "8b05cf8cfccec53c384e93de1f34dccbe33f9af4",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-12-07 17:58:14",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 合并报名分析报表",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "336dce713da83812b276cb6f58e9aaaaeb80c7c4",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-12-07 16:54:47",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 分配看板代码合并",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "938fdb05f48b3b3086cab481264a94d84f2f52f5",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-12-01 18:11:07",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:优化广点通报表",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "562162a00ed347e123b3f1cfd6685a868ba0700a",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-29 18:33:15",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 精细化接单上限配置",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "92f0dddb12034d3d0085256fb57264ae4d5f5805",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-29 18:31:38",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 合并流量池",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "80b4ccd076557a978429a452b2096b802011a3e9",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-25 17:13:10",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改名词拼写错误",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "d7d8e719cad682e0adc3dcaa4abca769767cc3a2",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-24 17:56:24",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:优化快手报表",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "ffad6545ae55a6da1fbb5eb4a84ec1c06e5fe018",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-24 17:51:27",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 优化快手报表",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "01bc5f2bbe0e1f53e8252e9aa70f1bf1b1713c57",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-24 17:45:17",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 快手报表",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "c27813a69cae8212661d07c597690c4017990606",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-24 10:08:40",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 快手报表",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "2e23b275a107cf6e55fc48695efaa4ab531a344c",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-23 20:26:34",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 完善快手报表",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "da56eaa91c133b8674907294976d1b1463c3580d",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-23 20:19:19",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 快手报表",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "3a70213ea7baf592b126b53a25bf4f56c64c7e46",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-22 18:15:16",
+    "email": "siwei.song@tenclass.com",
+    "title": "Merge branch 'uat-ssw' into uat-sw",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "85287fe20625ca690b0182a0b5b304b97e58bb5d",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-19 17:39:58",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 快手推广计划转化报表",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "0da9a865255b46f524207faf00f387c29f1ebc39",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-18 15:51:55",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 修改文案",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "246b150b7b99b01aa2fb5fc4b1f31da99ca8b4e3",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-15 17:09:31",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 商机列表购课时间筛选",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "066babeab099284a252905c3f6b9d9fe581772f7",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-15 10:50:09",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 忽略arms轮询超额接口",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "724c0fa38836a2c16b0732fff6a4f8e3ad92f692",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-12 18:44:47",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:修改样式",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "eb7ae7af3df83ed760f9f920e4249122b9286c62",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-12 18:42:29",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:修改样式",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "e41fe6d45190925b8560ec6a3b7c5aec4a21571b",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-12 15:40:33",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 投放时段增加投放部门",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "76a459150eda24c6cadc60bee00be4f3661216c3",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-10 15:41:21",
+    "email": "siwei.song@tenclass.com",
+    "title": "Merge branch 'feat/arms-ssw' into uat-ssw",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "6e68948a5e8c5d8612cdbe6e6639cd20b3199ed0",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-09 12:08:06",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 修改有效到课提示文案",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "938c4477e21e9dc78e98ba146c2f07807414d68d",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-09 10:21:52",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 修改有效到课率文案",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "52b12820e23f535c7d55a9c52eb889fcc2e19bb6",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-08 16:34:02",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 已成交商机修改顾问讲师改为实时",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "87c3302e6015e0f81f55621ac8279ba7da24119f",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-08 14:38:18",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改样式问题",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "72960d458316143e8f32a6e2ba4f83529e5d53eb",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-05 17:10:26",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 修改样式覆盖问题",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "7c1b2d9f6a63f5a97041042d710df7544de5af12",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-05 17:09:17",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:修改接单小组样式覆盖问题",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "e6f4bbc18fb1c68ff83024e21d25ce8ca2850d3d",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-05 15:03:38",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 修改滚动条问题",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "e5a9b2bbb87ef00c7944a562aa77dc5c9fc0f5f4",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-04 16:31:38",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:优化已成交商机",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "3466075b3c0ff507e45ff16449457576cafab165",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-04 16:16:12",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 优化已成交商机",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "0f0b68829a5175fe503cf4655748ca0ddd7bb850",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-04 15:56:14",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改字段",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "7c53c87ca4e0d270bd40cc11940ce53d3cb4cb8a",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-04 15:42:42",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改商机缺陷",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "aaa73ebdfcec5a6c3ba548952cb8b16aa66e1159",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-04 09:38:23",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 商机优化",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "e71d4b4448b729519f8aac3908adeb8b3da9e6d8",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-03 17:28:48",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:学员信息年龄端更新",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "b5da3c6e7c7f9ebfc47da1e4e92db8d59ed1397a",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-03 16:53:31",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 商机列表字段查询优化",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "d8c1f26541ae8c0640204d2f5b7bac7f3e46f8e1",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-03 16:38:50",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 投放时段消耗数据",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "20e874f4002bf967db5626d9c4c98d8715a3aaf1",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-03 10:14:20",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 已成交商机权限",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "ebd785a54f6051dfd43e7fa993a42586a00a2ba8",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-02 12:39:37",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 新增报表兼容手机脱敏逻辑",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "5c6d50a9a09e8c63bcb1a8cc8ec3443c2e88b859",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-01 11:40:00",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: ui问题",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "dcaf99b7712a5c7447331ba1f75a1bc6c1e721b5",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-01 10:55:47",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 去掉console",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "3d1d0d1f0c6df9c085bc2ce6845ad40b7cd2972a",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-01 10:09:06",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改UI问题",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "20c5c4704d6ea148e2f20c3d1c5cc804562897c0",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-30 14:52:45",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 学员信息兼容用户id字段",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "6e2eaa19cb4751d9d5bebd45cd130ba9c0504f35",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-30 14:26:47",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改缺陷",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "fb87b7b2ebc9499ed74401d995996eab2c943bd9",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-30 13:53:21",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改缺陷",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "1dc682cd81365dce84ca6bf9715391641793426a",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-30 11:06:21",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改已成交商机缺陷",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "9f0b829210e50ff0689a5a04d4a15643c12686e0",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-29 19:37:00",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 修改已成交商机缺陷",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "898fb080917b7674fa78623ac6dc52a0bc06cf74",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-29 15:58:42",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: ui问题",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "ff733f15a1f28d88f9e07d1bdf431300dd32ece4",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-29 15:30:31",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 新增报表",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "b660dc2e5dbc2bf83e25ae53c8abdb91c1c5dda9",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-29 14:16:17",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 新增数据报表",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "18f2419f5196e65fb50c9def4630d3b71e4cedba",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-29 12:51:30",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: ui",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "420d4e283af9994e1c22ee5d729bd43479aee8ca",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-29 11:26:21",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改UI问题",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "cae00c6af2649b694f90470fc4a3f9f5386f412e",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-29 10:57:02",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: ui",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "c172ec6407bf19c57c88cf5418d914068c934ed8",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-29 10:41:38",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改ui问题",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "51e6bdf408eba83067423a551f8251d329bb7bdd",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-28 18:50:12",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix：ui",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "5bf04aa4ecff99acad6aef48467179018197dc0e",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-28 18:00:50",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 新增报表",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "a79ffeb75861615ad95d3aea2763d53f6bd477d9",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-28 14:59:41",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 新交付课学习情况",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "6a0402bc3885f1acf726a3fd2ef1d621a4433a36",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-28 14:39:36",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 新交付课学习情况",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "2afa29bae2882b7350723b343147173d4593be55",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-28 13:13:13",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 新交付课学习情况",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "9999f386665460fa1d077f4433e41059538483d4",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-28 12:55:20",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 新增报表",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "c2bdce09506fcdddd213fd378d0a41e00eb6b419",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-28 11:55:03",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 新交付课学习情况",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "b3baf4a0439f424a895c1a3c991e7707ede7945c",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-28 11:38:10",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 已成交商机变更",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "903b365b66423770f5844f198c07cdbd94742f9a",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-28 10:55:50",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 优化已成交商机",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "70fc4e71e7631968f6f8ff5145bbe193889ed66c",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-28 10:25:25",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:已成交商机",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "00c8ab2ed68347e3acf61a65f0e63609fea56fcc",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-28 10:17:56",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 学习情况修改时间",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "e22af7a26604ae88333d26ae4c224ce5d111c51f",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-28 09:44:15",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 已成交商机",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "2e42b9c9b87d079d3c8c33007d9b826a7c87bdeb",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-28 09:32:51",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 优化已成交商机",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "661b9a5063d42649ad8272c84573e62518503522",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-27 21:32:39",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 已成交学员变更顾问修改接口",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "86f21adf9d67dff5118c003725a155dfea9dada1",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-27 19:54:12",
+    "email": "siwei.song@tenclass.com",
+    "title": "新增报表",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "6b6491dfb057086fe792587ac3a2aef21fb66d32",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-27 19:04:09",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 已成交商机",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "b880a4bfa6e3a7a3db7378a278da560d32111d10",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-27 17:03:11",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 已成交商机",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "d02577ecd829f3398f089028428cf71c8d50b122",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-27 16:46:25",
+    "email": "siwei.song@tenclass.com",
+    "title": "新交付课学习情况",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "4871ae9eb817d7956c6c282bf222795753dcbc1a",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-27 16:19:31",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 已成交商机",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "9ea85a64e66a61c835709388b57a490f3873932e",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-27 16:07:32",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 交付课学员学习情况",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "4176cea2128b6267e7fcf95f88fbe9991d075b64",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-27 15:54:44",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 交付课学习情况",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "54caa5571834d6afdd0e2d15b7b5fb92df9abca8",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-27 10:13:35",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 已成交商机",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "7e365da85a616c579d315a92dec2e691f5bdb5d3",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-27 09:49:31",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 已成交商机变更讲师和顾问",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "2b9c8d3b228fad934aebbfc6f18c4ffd5c330fa0",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-26 21:17:28",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 学习情况",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "d8344c80bd3d62dbd725ec03211144a0f56e36cb",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-26 19:52:32",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 已成交商机更改顾问",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "ecd254b8c2b1ee29459a8c05f7a50214d2d8184b",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-26 19:21:37",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改antv版本依赖问题",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "572a602b587b677b8268871a0815aefe5b54a4cd",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-26 17:55:13",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 变更顾问",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "534fc02b0d65d1c4ea9778c04575964409bef38a",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-26 16:12:08",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 暂时屏蔽掉滚动加载",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "b4478efc6625c48a73dd39cbbb55122c296f8702",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-26 15:55:10",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 已成交商机变更顾问和讲师",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "793d72146142500e46f780af76818e9e00586807",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-26 11:35:22",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 已成交商机",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "f403dafd25b5370122340b9769c82e526aa04814",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-25 21:10:25",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 已成交商机更新讲师和顾问",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "a6231b3826bb01ee5d59d4be95718b66de34ba88",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-25 19:40:01",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 已成交商机更新讲师和顾问",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "6ad7ae230ca5951c5ecf2b122c7c6c1caf2d6585",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-25 18:09:51",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 已成交商机变更销售和讲师",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "49dd8951acf55d826f32f91b8ac04d646e3490d9",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-25 17:12:39",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 已成交商机变更顾问和讲师",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "32a8bf28f2f4bbeee8ec299d56995870d81576ba",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-25 12:05:58",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:还原商机移交代码",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "d2f81f7b527cc3a19955cd02d7f33dcb64125c72",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-25 11:41:03",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改商机移交时间bug",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "12d14ab74115d82f3009db510812a376a75aa3d0",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-25 11:07:14",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:ui",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "6e23f326a981a447835010914525bd3bccbd99a7",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-25 10:50:52",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:已成交商机变更顾问和讲师",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "278422053a68c3e094a4562fba014b1c8ed01c51",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-25 10:27:01",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改文案",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "1336aa71b545b437cf13626d7b4da0cbe5be2087",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-22 19:25:18",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改路由",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "c71f74d3a6b788d4340fdc880b0be35979655c72",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-22 19:17:51",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改数据详情路由",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "80bb1654f73a88ac10ca6a0df17c3a06fe69d310",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-22 19:12:36",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix：修改路由",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "d9e8979411a70386fbbb1b5ed96508678d17ccde",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-22 19:09:02",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix：修改路由",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "984d4f73f970dece08a001f215a3a73f8e87c270",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-22 18:59:26",
+    "email": "siwei.song@tenclass.com",
+    "title": "修改路由",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "48e19ce9cd7bfc29a5f20157c59a0cf919302886",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-22 18:53:51",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:修改路由",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "e1bbf1bad1b41c01586ffb24aa067cca77bcd780",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-22 18:53:32",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:修改路由",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "5150e97cdc2c9965bcbaf98025ec9a32510d85e7",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-22 18:46:41",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 已成交商机",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "25c82776c31ada6124f3f34213684459c4140f10",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-22 17:01:34",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 更新文案",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "e4a1d94f55711137e87672b8ea2eb2835f9e254d",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-22 16:54:26",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 更新文案",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "0eee551f6acb1182e4e10e2f9befb30a18781c9d",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-22 16:30:09",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 已成交商机变更顾问班主任",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "ca331cfc0aa88ee86d9f291adb933d19bfe12a59",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-22 14:16:32",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 修改header_select路径",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "9cb260a496c969d97660af2ca066b07a62dac252",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-22 11:02:38",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 直播看板技术口径修改接口",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "aed321ef239ddb7a78f9f5540c5b38962a0f9530",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-22 10:59:17",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 优化直播看板下拉",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "73042fd75d0ab54ff293c73933b572fe5b51aa91",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-21 21:11:14",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 优化数据看板数据分析下拉",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "037243859e42b98febf55e5dd231fca4e05fa231",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-20 18:41:57",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 新交付课优化数据看板直播内容下拉",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "edfb342187c5104eef2e2434d9c6965c93dea040",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-20 16:51:38",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 数据看板修改技术口径",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "be43e504a675da8c47d8bacd5bb7823b5d1693eb",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-20 16:19:55",
+    "email": "siwei.song@tenclass.com",
+    "title": "Merge branch 'feat/live-board-select-ssw' into feat/live-select-ssw",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "5407ccb0126f52949d5c34ceec78c36ee77bcbdc",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-18 18:46:30",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 新交付课学习情况",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "74beb5dde33d18949b328c0478b6a31f321f46a7",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-18 18:05:09",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 新交付课学习情况",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "d2ee00638799815956a0960108bbaac240de65d1",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-09 14:30:10",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:ui",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "8e05a20637a2ec72b7e5a90b385ce0de6dfaa1b9",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-09 14:19:28",
+    "email": "siwei.song@tenclass.com",
+    "title": "hotfix: 修改未到课分页问题",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "55378f01725a1829245cf654488114d7b53e637c",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-09 12:04:44",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:ui",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "2993d7f4e8af044e25b616371e3d48fb632fbe8e",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-30 12:02:28",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:备注修改",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "dea801e6fbae4dbc8296694486ebfa37e2677b21",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-30 11:17:35",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 时段报表高级筛选自定义布局",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "2453ada38271a3fc1c71d1e2b93d2b0c37ba7727",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-30 09:11:17",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 修改拼写错误",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "d6e664298f6bec376fce42510860f8263d4e0dd4",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-29 18:35:52",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 暂时隐藏备注修改",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "f62788bd6eb57803ce5ecf935adca5e30f7ba7ad",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-29 17:15:50",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改textarea数字定位",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "9106d2c5a1864740247b50b88bbc1fd6ed90817c",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-28 19:03:52",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 优化textaran组件",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "b85d513561c875404e23c3b28e85f1a5551946d3",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-28 16:48:45",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 优化商机滚动条sticky",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "8278a7f6e9afd5cd1ba07c5e22df3e23cac717a0",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-28 15:15:21",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:修改学员中心备注问题",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "d10d482082aaa970852a584033df8648a8e7d070",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-28 10:24:06",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 优化学员中心样式",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "aa5b1b5baa678cb9dd0f4208e1db12de6a88597d",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-27 19:42:05",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 学员中心信息完善",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "19cb5291206f85a61b47a2afcc813ed0f333911c",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-27 18:18:08",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 修改用户信息样式问题",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "f8acb5e8881ec577255c8cb9e7985d859bac660b",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-27 14:28:37",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:分配顾问显示微信昵称",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "45f64f8f8a763da118a2b79fbf6c1637ef476cd9",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-27 12:16:21",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:分配顾问显示微信昵称",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "e5e45fe95f757642d532a0fbdb5b8dac47bdeeda",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-27 11:45:11",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 完善用户中心个人信息",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "e084346b5598de5140c72c386506d502353c96c6",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-27 11:38:51",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:完善个人信息中心",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "b781ff66e623a6edcf491f5dce849874bc65399b",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-27 11:28:44",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:完善个人信息中心",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "da003713f4bc66da299037616dc928057f78ca82",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-27 10:37:54",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 用户中心学员信息增加编辑备注",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "0cb1462c2f7773532bdf67575a939ee7f4b86a44",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-26 19:36:25",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 用户信息样式重构",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "44cf7c2ae0359a7f5c55c5a58526272510b6d73b",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-26 15:35:20",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 学员信息录入增加字段",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "97bbd311a65259d99ff24f29712a9932ca141143",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-24 16:54:02",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改分配记录时间格式",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "748dfd88e3319a69b1a1e74d6b599eab76c8c0cb",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-24 16:34:24",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:修改投放时段报表时间选择组件",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "242e8e2df593efa523fc0f4b7d2143dc0d3ccf4b",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-24 15:09:09",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:分配顾问增加权限",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "a1e0ff23e379014c75d8395d8fb3b5e080f40a51",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-24 15:02:53",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:分配顾问接口增加参数",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "50fca374b231def9516ecc056157e3579e2cb6c2",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-24 14:30:32",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:修改无顾问时间段问题",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "b590b31b98c4163481cf8508ab0950d7b976df8d",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-24 11:41:54",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 同步学员信息年龄文案",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "588d491fd77b14d5a23f9e8c162db036bcccc135",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-23 17:25:41",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:完善投放时段报表",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "2372bdd96fd4ee67afd8a16329b66e3c02f25542",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-23 17:23:22",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:完善投放时段报表",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "b540efa96e856bd42236c50b7a06d361e6cc0594",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-23 17:20:10",
+    "email": "siwei.song@tenclass.com",
+    "title": "Merge branch 'feat/report-master-ssw' into feat/ssw-uat",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "88365d90cc4d574858450748fe816a904d705d12",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-23 17:19:44",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改报表缺陷",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "10b901e3597e9f93402cd61d173e8e9f3373ff55",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-23 17:13:20",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:投放账户时段报表",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "5cdbda77aedca5787c5466810fc35851a469d7e0",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-23 16:40:18",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: B端学员录入信息接口",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "38843205c5b5547159947a37ec27cbc0ea3c769b",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-23 15:08:37",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:title",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "b40a9885bec2348b09d393c36a860cb5a9ea965c",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-23 15:05:07",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改报表导出title问题",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "446e0969c6cb9b1413d6142ad52ac4db12cb396d",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-23 14:43:52",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:修改ui样式",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "d06faaf2e6171e1451b9ca5fab8ff75a75dd405a",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-23 14:25:16",
+    "email": "siwei.song@tenclass.com",
+    "title": "Merge branch 'feat/business-common-ssw-master' into feat/ssw-uat",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "485537334eab075279604a14d3c50c97236ad5d7",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-23 12:20:37",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:时段报表时间筛选",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "f4cdd7b0732633da7f4f894de09d9698342da39d",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-23 12:03:44",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 分配顾问重置表单问题",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "adf7cbc940d62bba9a4fee8b6d94d82311e42c1b",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-23 11:39:42",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 投放账户时段报表",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "6d6c6ca00a4e13732facd588d1a66f2851ad9c14",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-23 10:54:13",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 修改UI问题",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "0ea67de39b0890bae9753132a3389c28b40fb8c0",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-22 16:42:53",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:修复无顾问学员搜索问题",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "b11bd187f8ffda9611b296ab3d6fa4d4a63f299b",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-22 15:16:21",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:优化无顾问学员",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "23cfa51bb76744b069cceba9504612ece85e4630",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-22 15:01:30",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改无顾问学员缺陷",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "ecf031cb2f42dbd950662a99adafcae2656ffa4f",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-22 14:15:27",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改课程类型字段名",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "0fc942eceaebb8383b26c3c6f3cb277f01586d9c",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-22 11:48:39",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 完善无顾问学员商机归属",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "bac4b92ae8102496bc29cd7ade4fbd84d93369aa",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-22 10:01:53",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: ��配顾问api",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "4363cf043afa5b0d0a9bdf006109833384a54da8",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-18 18:43:40",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 完善无顾问学员",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "93ffd0ba87ec2a3d86c18491a9d21738687e3508",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-18 18:34:24",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 无顾问学员",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "75aada7b6d8742e2b70c59cc398bfb079696c9fa",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-18 18:33:28",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 无顾问学员",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "536544b317e8ba18580ca01f5b7f30305c774141",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-18 17:57:03",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 完善无顾问学员",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "58f8ccefa7ca31a7ddbef1b74645024c2fc43c25",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-18 17:21:54",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 优化无顾问学员列表",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "ea28f0716ff3995c97bc06c692e529c486b588db",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-18 16:59:52",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改无顾问学员UI问题",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "75c95af861e547ebb283fecae5d5599b9f003f42",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-18 11:06:32",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 投放账户时段消耗数据",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "de271138d67b077d61cc008ec169824ed8d35306",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-18 09:38:26",
+    "email": "siwei.song@tenclass.com",
+    "title": "Merge branch 'feat/add-report-ssw' into feat/report-master-ssw",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "79f70610938b0d76b0f9876be99c49adb32638c1",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-18 09:19:30",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 完善无顾问学员列表",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "4f0372170b605296d508205991ca283a5d9056f6",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-17 17:58:27",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 无顾问学员列表",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "2ef0afd44bdc113c2d4744539ce62c4377828237",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-17 17:09:50",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 无顾问学员",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "23cae24f95be8f3c4b2f2474281e2116459dd3a7",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-17 16:03:05",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:无顾问学员",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "d79f36d96733eb953fb39bf674516d5fb8a9bb5d",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-17 15:07:09",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改投放数据成交日期缺陷",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "0767418c9e051405c615bbcac0dde7391dcf5650",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-17 15:03:19",
+    "email": "siwei.song@tenclass.com",
+    "title": "无顾问列表",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "51d95d92d32e17c61a0ea15cea278fd721365df4",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-17 14:23:47",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:学员信息合入商机公共分支",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "a08b332bf950c5e023adedd5ef53d7a026a32d01",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-17 12:56:38",
+    "email": "siwei.song@tenclass.com",
+    "title": "课程链接修改",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "320dcc8a5c1037cf5f531474830a83485225580d",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-17 09:49:08",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改缺陷",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "4ab1128337e3210bf7cbad3fbc0be0d72be2fe14",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-16 20:27:55",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改样式",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "b80610eeb4a1bbc624c88a3021780d8864698d78",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-16 20:12:18",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:修改学员信息B端样式",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "4717737e1a24e663d6c507ea7ab935547615eb6a",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-16 19:44:55",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:学员信息优化",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "38db647be299d5818fec239ac45880bfe1542d7c",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-16 18:41:31",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:学员信息优化",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "34eb4737f474756092e34067c67ecb6845b5693a",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-16 17:44:48",
+    "email": "siwei.song@tenclass.com",
+    "title": "无顾问列表",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "e370cec95f769ceb7040f91fb45b1298ef388e25",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-16 15:39:36",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 数据看板动态事件请求所有直播内容",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "634b319f42282e61987ea0d9bc10922baf57af7a",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-16 14:50:10",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 学员信息录入",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "a886f9f921d6fbcb026bad5ac7de9a7282f55632",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-16 14:22:06",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:学员信息录入",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "1a010d3c7748f1474fc1c3011fc944304eebaba0",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-16 13:12:02",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:学员信息录入",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "13cbc56d46ec4d3856673be98226dc2b8b01a88c",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-16 12:41:37",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:学员信息录入",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "d3abcdac625b79094bde7187421c42a0dcf1475f",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-16 12:39:13",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:学员信息录入",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "279c16b2d5c976448ea9a4d6783c549713f36456",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-16 10:47:24",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改字段名",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "ce775723b70128320013c5060efd2e4127a2b772",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-16 10:01:40",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 无顾问学员",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "1e24e395525a8e850a506b3cbc852dce97a651b0",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-15 19:51:33",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 商机用户信息修改Ui样式",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "5f3c7dc0c2d7478f02d1a6885628fb86c8eff08a",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-15 16:40:07",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 无顾问学员",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "af12fc079741d833b6d0560d37a0b158cd10329d",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-15 14:58:27",
+    "email": "siwei.song@tenclass.com",
+    "title": "Merge branch 'feat/business-no-advister-ssw' into feat/business-no-advister-ssw-master",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "ea3e30bc3529ff756d2d67b0b2c80c288f26cb10",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-15 14:56:00",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 商机管理学员信息录入",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "685faf1ce09ee350c1b1c9a6dfd9242e308a33b8",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-13 14:02:52",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:修改直播分析路由",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "d51e857c098352b52779fa91c32e3210405161ab",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-13 11:17:05",
+    "email": "siwei.song@tenclass.com",
+    "title": "Merge branch 'feat/delivery-course-1.0-ssw' into feat/delivery-course-merge-ssw",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "24ee48d94f820ca96c53c79754afa368b4310ef2",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-03 16:43:06",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 修复crm所有报表eslint报错",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "78b1c60b33c6750a08248aeabfab9a0a8b594211",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-03 16:28:05",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 修复crm所有报表eslint报错",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "0adba6511e8f36f127f05c1e42c3c9dfe11b5a61",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-03 09:49:38",
+    "email": "siwei.song@tenclass.com",
+    "title": "1.原报表列表渲染逻辑优化",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "45e171412473039275b59e88697c3fa8ca763b48",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-02 16:03:16",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改流失分析和设备分析传参",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "1a5ca8a1f80caff2eb25acc96f176a20a71eaebf",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-01 09:46:21",
+    "email": "siwei.song@tenclass.com",
+    "title": "1.修改数据分析eslint报错和ts类型补全",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "b6ca556f7b86481f802c17cab93eba8f197d46a8",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-30 17:49:14",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 购买总额改为实付总额",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "543dd59fe64f216243863f3931c6d5ab0ec704c4",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-27 15:07:04",
+    "email": "siwei.song@tenclass.com",
+    "title": "hotfix:直播详情下拉暂改为请求所有类型数据",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "11a1d84247e4f7900b81c9c34ec355c191e5ee28",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-27 15:02:03",
+    "email": "siwei.song@tenclass.com",
+    "title": "hotfix:直播详情下拉暂改为请求所有类型数据",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "a4bf6ba40aa5b2789266def45752f51fcbb86443",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-27 14:50:22",
+    "email": "siwei.song@tenclass.com",
+    "title": "hotfix:直播详情下拉暂改为请求所有类型数据",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "09fa480d1876be0b300d5daccdb894e15bbffbc2",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-27 14:30:36",
+    "email": "siwei.song@tenclass.com",
+    "title": "hotfix:直播详情下拉暂改为请求所有类型数据",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "f1a5f64db5f1256b6880e21ca3e955d6be8dcb6f",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-27 09:47:40",
+    "email": "siwei.song@tenclass.com",
+    "title": "1. 紧急修复线上遗留bug",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "3a2b35fc83528d219be58cfa2ef963d63d5bed1d",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-25 17:44:43",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改直播看板缺陷",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "18f5a55d7eb9c85aea8a10a4043cc885b80d3f30",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-24 17:28:55",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:隐藏历史到课下拉查询",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "7541673a65a917916eef6fd0186f84dff6312b6e",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-23 11:35:53",
+    "email": "siwei.song@tenclass.com",
+    "title": "Merge branch 'master' into feat/live-board-select-ssw",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "ac8e005dd237261c03b1504930e75b7fb15a9461",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-20 10:36:03",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:商机数据对后端返回null做容错",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "b5f506090897a54c6a11c514c41bb0a153a835d7",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-19 17:26:56",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 优化直播看板类型",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "af592fda8355c122c90bb51c5ca159e861b752b0",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-18 18:22:41",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改直播分析面包屑",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "125ae0949c5f33df0a914efef8ec3327d95554e2",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-18 17:07:32",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 离线报表日期组件限制",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "07c73dcb0fc3d10a05621c2589ec0317fad2f575",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-18 16:16:02",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 离线报表日期组件处理，禁选今天",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "089b289beba150935b591630496f028c9c61c0cb",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-18 14:43:13",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:直播看板增加课程类型下拉筛选",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "51d10fcb52b401d3812dd89507f0f4f3b9a200cf",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-17 18:41:38",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 直播分析支持课程类型筛选",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "9230884b7ae3cb163360dbd3f96277c6fc968b20",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-17 16:24:52",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 课程下拉显示id和名称",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "6f7d6aed7a918b0d00321841098679117d758785",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-17 15:09:12",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:ui",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "a1bbbde1c5e0b9452d7c29a918ab4a174916aa6a",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-17 11:44:32",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:ui",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "f242f8bb341da58a5a615b4802caa4ee22518388",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-16 18:22:14",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:ui",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "e27905af074df6a807ea30e4fe9d74b53892675d",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-16 15:45:24",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:修改商机管理下拉样式问题",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "45f0670d08e39800ce32e69007fd27932af7510f",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-16 15:41:15",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:ui",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "f9a173db1bbbe6042bfa493abebcf1a2696bb859",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-16 14:06:10",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:修改商机管理缺陷",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "6c319534736041cebc4227b49c9d464adf78f9a8",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-16 11:55:28",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改ui",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "dd7bd9144f6780693083ee06a43082d9df65b403",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-16 11:15:07",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:ui",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "be3e8f2f97c6cb4fc525d9b06ca206f232de6fcf",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-13 15:41:18",
+    "email": "siwei.song@tenclass.com",
+    "title": "hotfix: 修改头部样式问题",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "ffd09f5189e48b6a61191927d845790e0fa83e77",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-13 14:11:17",
+    "email": "siwei.song@tenclass.com",
+    "title": "hotfix:修改UI样式问题",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "3d01391cb45367c18edd62a85474e52e10af6fb2",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-12 18:01:32",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 顶部全局加阴影",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "88c0bea1a20199cc3d1c505ab27f755c910fb265",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-12 17:55:08",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改UI样式",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "0291a41b8c5a2b3658742c562cae5b5647a1cf6b",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-12 16:32:15",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 商机管理手机号不允许修改",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "4106a8b7f3f86cab015dc3c2618156bcaafae2f2",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-12 11:55:17",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:优化播放器配置",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "00eb6e268d8060fbade57e16faad256ef07168d6",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-12 11:30:25",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 修改留堂率提示文案",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "fcee3a9a1a0ce5406285c5ae697eab0a172b5d5b",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-12 10:16:41",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:优化回看视频太大是默认给3秒loading",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "fa4111906781a02876cddb82e326e117a5fb6022",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-11 20:20:47",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 直播回看分析",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "17a5e1b51462c85b536503431eae79e23e2a76e6",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-11 19:16:12",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 优化直播分析",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "f7c880e1095ea88b873e23e7cd7e6c19de79032e",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-11 15:44:05",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 优化漏斗图",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "66ebdc3cde69669c75612b34a949e35e1586e760",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-11 15:16:55",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:优化满意度环状图",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "43808b96f27ed9f5e21ae4fad045fa1551171cbe",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-11 15:10:50",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 优化人数分析图上下机打点",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "0b07d03eba8aea6aa12fd1b6c5cb730333bb2633",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-11 13:01:49",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改切换直播类型bug",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "9b35ed55a45bdb5fc9ba60590cc3adacd99ae0d5",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-11 12:00:29",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:优化上下机打点",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "dc735306ba0159050805d7aea4ec25493213a6e5",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-11 10:49:37",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 优化直播分析",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "52fcd5fd60c4c9686ddf0190dec5d90cc60f116e",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-11 10:30:05",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 优化到课折线图",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "625e14f9f652ae73ed30327ac1168bc859004297",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-10 21:55:26",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 优化漏斗图",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "7557209634b3a9caef9723d1780d0505368d7e4b",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-10 21:43:19",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:  直播回看算法优化",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "6e384921645e193d024badc298df6d30902315f0",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-10 17:15:23",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 直播回看分析",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "94ddb002912ef0d8ebb2574a3da4be6562da958a",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-10 11:51:38",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 直播回放分析",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "a2660f9e271ce6df2c00c4e224a6a248911e1fda",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-09 18:24:02",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:直播回看分析",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "530f37c3497f8c84cb9e965a97e7b8bfa929d706",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-09 14:48:13",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 直播回看分析",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "d418ff8a97ebb7bbea58ae65d2e31e02a6991962",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-09 11:38:53",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 完善权限",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "fbcdff1060387b6e4bcbf9e6c72bb38a26cb092f",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-09 10:50:24",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 回看分析",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "7d406feae892f3ecb9c62078399ab93984a5ff4e",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-06 19:53:14",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 直播回看分析",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "d795679be3231f8fc6fb45d773332ded8fa759a7",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-06 16:52:07",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 直播回看分析",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "e622530e7d6306156147ad2e968b624417b23fe2",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-06 15:35:06",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:视频回放分析",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "5c4dd6d820020e9e0fc4dd83bc49eb4d09bc1c7f",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-05 21:05:14",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:record_analysis",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "680e17b21ce75bfc9b3a0559c2894c7e9b9c751d",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-05 10:57:40",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:live-analysis",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "197ed850d58b1377b5a6d281212aa7644bf984e2",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-03 18:51:33",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 视频回看分析",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "b5cd3824410c5fa426f7b45ed78b9af611a6b2a8",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-02 20:16:03",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 直播回看分析",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "a421635a9997ea3afd3ba8ee8908ff16dda44f61",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-02 18:09:37",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 视频直播分析",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "ad7d838498c61377bb4dbbcdba6daa303c48421c",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-02 15:24:16",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改投放数据下载地址",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "5c8b6599782834c81e6eeedb4c8822848d313d26",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-02 14:21:21",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 视频实操课增加content_types筛选参数",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "ce12d3a29192ef9591229ea3a51afa18492678b2",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-02 11:56:24",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 优化营期",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "fbcebd8f0405158244c4217c5f86648cba81c52e",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-08-02 11:16:40",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 回看分析评论",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "4b5257bd0662b6ddf6c97a28c2c2fc7f3b0c1536",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-30 18:59:16",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:  直播回看界面",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "1eea9bc4ce60150a1f1b00050a299cdf9bc51197",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-27 14:53:17",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:camp-limit",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "57d2d1b4603dc721b4de60c14726ea82458e9d0f",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-27 14:46:52",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:camp-limit",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "3b8c8072d96a234d794947402b0a09efdb257cb7",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-26 16:11:47",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:liveboard",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "1c41139c767ad90870c0c71050cbe0b6ff37d9d6",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-26 15:28:06",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:bug",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "09b97db0125647f008dcf2f7dd2da4fff80e0dbd",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-26 15:24:47",
+    "email": "siwei.song@tenclass.com",
+    "title": "liveboard",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "ce623d0e1e47d51fb8d9c9d7eb78d61666b8c334",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-26 15:21:26",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:bug",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "04715e1ec7f942f90b7a901615bbc15e07eb59eb",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-26 15:07:19",
+    "email": "siwei.song@tenclass.com",
+    "title": "liveboard",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "969b6c433c5a80c6dc6cc6964c5a89ffd42a7727",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-26 11:42:08",
+    "email": "siwei.song@tenclass.com",
+    "title": "营期下拉优化",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "8ded4692023f69335c2a5e0766daee3809deceeb",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-26 10:44:25",
+    "email": "siwei.song@tenclass.com",
+    "title": "直播看板列表优化",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "c42856d7c30680f861bfb9c9c77a48831b9e482e",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-23 11:55:02",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:line_wheat",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "a7a499d7b29314d5a275ed515ff259d389e2ed61",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-23 11:24:41",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: fix_bug",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "4be54ea954b46049e68a8da48b4c23adec183cbc",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-21 17:06:12",
+    "email": "siwei.song@tenclass.com",
+    "title": "增加用户类型选项",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "bbcfbc7559357bffb171093a37766084435d39d8",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-21 16:41:30",
+    "email": "siwei.song@tenclass.com",
+    "title": "重构连线请求报表",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "be4e947ba39681001d7c4a3eaeea255e4db2611e",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-21 16:19:46",
+    "email": "siwei.song@tenclass.com",
+    "title": "营期改为全量请求",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "3a7ce2b63816764053854c9d871a253a4a32dbee",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-21 16:15:07",
+    "email": "siwei.song@tenclass.com",
+    "title": "修改limit,全量请求营期",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "0b93b23a3bf2a227845ae1ea1baa829042bc88cc",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-21 15:53:07",
+    "email": "siwei.song@tenclass.com",
+    "title": "dosc",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "5639dd9a7703df99cdd8855b42a708114348e53d",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-21 15:52:11",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 连线请求与转换关系报表",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "e64cde4ca2a30e993417c85c85c38d4373d49c25",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-21 11:11:09",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: lineWheat",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "6f0accb9401a3d8b43201c53154eb13b54dc48aa",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-20 17:32:03",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:修复视频实操课营期",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "12abaa3e638b8cf8b3005451d0febf6086a87eb1",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-20 17:05:46",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修复线上营期查询bug",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "bbf194dd8b01934432b7f8f0c51fe3fdce58f66c",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-19 16:54:10",
+    "email": "siwei.song@tenclass.com",
+    "title": "camp_number",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "f606fa68ed9f9c1817d5960a6576307f39283aa2",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-19 16:07:21",
+    "email": "siwei.song@tenclass.com",
+    "title": "export limit",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "962b210473af4293d23f06cf8ab0994928fcbac9",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-19 15:51:14",
+    "email": "siwei.song@tenclass.com",
+    "title": "修改字段",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "25d2ba966616715507737d55d928c5b2ff53ae52",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-19 15:22:41",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:form_adjust",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "38ecbc98f3db8e0c27311797bdce69cb85f74c2a",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-19 14:21:52",
+    "email": "siwei.song@tenclass.com",
+    "title": "vedio-operate",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "3fc0afbaff0e438d9b4bc2f7b58d081ba54cee54",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-19 11:58:13",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:vedio-ui",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "56eff26e187a783492921e442a51557e7bedcb25",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-16 18:43:13",
+    "email": "siwei.song@tenclass.com",
+    "title": "Avatar",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "efe3bb2fbc7352aeb66d69610c34eb354a43cde6",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-16 17:56:40",
+    "email": "siwei.song@tenclass.com",
+    "title": "delete sumarry",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "eac18245273204824e2e47aab6eb0a604cb69de7",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-16 16:32:14",
+    "email": "siwei.song@tenclass.com",
+    "title": "delete sumarry",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "b2bc4f4c9b26edb6aaf23b648e083b5da183fa79",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-16 09:41:18",
+    "email": "siwei.song@tenclass.com",
+    "title": "vedio-operate",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "e4412ac36a419698c1a81aaa299451042252c391",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-15 18:29:10",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:ui",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "5c055132a0ac9863c5a3f2788d044026cfc5afcd",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-15 17:28:01",
+    "email": "siwei.song@tenclass.com",
+    "title": "vedio-operate",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "fb9e8a5299940c860e749c5babf161c1a3d9d89d",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-15 16:05:00",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:ui",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "d5926dd60e3ee16aa1a6983e10d12fad6c22d1fb",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-15 14:54:23",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:vedio-operate",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "21375314b6596e1132912f352ccee21c069c8908",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-14 16:39:27",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:bug",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "78c8cd95c8cf1a22eac52192a2a6a873b3bcdf44",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-14 16:33:37",
+    "email": "siwei.song@tenclass.com",
+    "title": "1.视频实操课radash改版",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "4474e83942362ed75f90bf06d077b5c724458361",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-14 14:30:10",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:sale-ui",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "1e95eed72209c4d471b46adcacfb652066995c89",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-14 12:55:04",
+    "email": "siwei.song@tenclass.com",
+    "title": "sale-ui",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "5d478a94fd51c42defa7ee9816d0de64f62cecd9",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-12 18:22:35",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix-console",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "af228a5de560446102b2606a46d02ef84a8784a5",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-12 18:20:10",
+    "email": "siwei.song@tenclass.com",
+    "title": "Merge branch 'feat/camp-transform-ssw' into feat/camp-report-ssw",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "73f8fafb0b98cf0a75c7f9d4b939522c147879c7",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-12 16:28:47",
+    "email": "siwei.song@tenclass.com",
+    "title": "modifyfy-text",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "310da92d1e8d88ed6725912dc07feb6b0ea8c430",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-12 16:07:17",
+    "email": "siwei.song@tenclass.com",
+    "title": "Merge branch 'feat/report-data-recover-ssw' into feat/ssw-toufang-recover",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "24e3c7537de7b5b44b75c99eed89d0ee7250cf58",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-07 16:33:13",
+    "email": "siwei.song@tenclass.com",
+    "title": "code tree shake",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "fbc51fbd9276b76ab14e77d74000a90a1fb86974",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-07 12:36:18",
+    "email": "siwei.song@tenclass.com",
+    "title": "tree shake",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "48edd16a42f9e60afef221c7074913704df19ee2",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-05 14:35:55",
+    "email": "siwei.song@tenclass.com",
+    "title": "modify-limit",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "90590ad0551f48d56f3fcb74e1876eb11509bef2",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-05 10:46:33",
+    "email": "siwei.song@tenclass.com",
+    "title": "business_ui",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "d813b0c5467ca9d0d986c1bad2c3408fac564096",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-02 19:00:42",
+    "email": "siwei.song@tenclass.com",
+    "title": "ssw:business_ui",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "9343c22534edb54d46586119954f04e150cd3ce3",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-02 18:44:14",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:business_ui",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "6d0c98eb3020c25fa6027f8f3e5a25027ba8f92b",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-02 16:09:13",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:select",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "1eededee633ac2d603adbb996c33c40355cc9620",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-02 10:17:35",
+    "email": "siwei.song@tenclass.com",
+    "title": "del console",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "ecfadef9e3b77e034fa5fdb8f46e7a2dff43109d",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-02 09:57:53",
+    "email": "siwei.song@tenclass.com",
+    "title": "teachor-report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "3b023795203fe4b79d5b9fd7e59080d16b40eccc",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-01 18:34:24",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:mp_department",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "0860c7487e5017a966573a5143f5c7f07b388d39",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-07-01 16:18:06",
+    "email": "siwei.song@tenclass.com",
+    "title": "add-report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "57f2f1c8367507612ead6efcf665d2ca9de9062a",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-30 20:08:39",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix_warning",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "aa3c241963c7eeb3e4d3fcbdbc21fd6cdff41193",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-30 19:44:21",
+    "email": "siwei.song@tenclass.com",
+    "title": "Merge branch 'fix/warnings-fix-ssw' into fix/warning-ssw_master",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "471bf6c0b12f89a05a415c90ab573d72e5df43d6",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-30 16:31:23",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:bug",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "caf367957afe4bbe6b2698de3d95ac034849c149",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-30 16:25:01",
+    "email": "siwei.song@tenclass.com",
+    "title": "phone-bug",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "7ee0d3aa688603d900ff1028943f40d732ddeb01",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-29 12:26:33",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:bug",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "8868dd75b3f1fc6955ffca9b26f9fc5abf0e5de6",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-29 11:51:27",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:bug",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "65ef403b6c534339bc04a49d9d1cadc0cffa690f",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-29 11:35:18",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:phone_secret_bug",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "ceb804e28e7c4e64b89cb61925493ebc2aa53e7f",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-28 20:24:00",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:launch_data",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "2df0711464e09e72a09e1c5596649e0e92f96d3e",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-25 16:00:26",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:add_report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "bdcc09f7fbf315c6ac8287996e6f875a62c633e5",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-25 12:53:09",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:launch_data",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "3541de06bc4cc878d8af2aa49d722b4236f29013",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-25 11:39:35",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:launch_data",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "806305ac104f76edc39471d446fa89de751005a7",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-25 11:11:48",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:search_bug",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "874adbc3a0d12df54f71ec7fb5ec9c7543a3ca19",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-25 10:26:30",
+    "email": "siwei.song@tenclass.com",
+    "title": "community-select",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "6db3b7b9d154d5e19f4997627c22d0282224e4dc",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-24 18:36:13",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:ssw_launch_data",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "2192865c4cf9d410624b9198c680cdb8b6dd4277",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-24 18:13:46",
+    "email": "siwei.song@tenclass.com",
+    "title": "Merge branch 'ssw-feat-secret_phone' into lr-feat-secret_phone",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "6cc9fd6113569dcfc0131d4059627f19b6ca8744",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-24 17:17:35",
+    "email": "siwei.song@tenclass.com",
+    "title": "ssw-launch-data",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "443cf3fd860a406358af04b088b0e9a8055dc993",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-24 09:59:46",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:launch_data",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "ba73b9c126873cc685820a684d7a9a79f7e17c8b",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-23 19:10:25",
+    "email": "siwei.song@tenclass.com",
+    "title": "Merge branch 'ssw-dev' into ssw-feat-import_launch",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "c449e61f096d39856ac0057d13528ff5b0a7aee0",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-23 18:51:57",
+    "email": "siwei.song@tenclass.com",
+    "title": "ssw-feat-launch-data",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "184d06e2e211bc94234314aeb2002252c2f5fc29",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-23 17:43:54",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:api",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "8a44689ed2ae79516f638ad1353f2c83750bb2fb",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-23 17:26:05",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:launch-data",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "e9140a9a3deedec64e825a6c678c63cc5d26fce1",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-23 16:41:49",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix business avatar",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "924904312f84981bdf910ffd14faeb93f4956e16",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-23 16:34:14",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:launch_data",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "46a15d85e9d6892269c0fd60d46b8b2620c2095c",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-23 09:22:20",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:name",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "3e905178381abbe08e4fb045209aacf738430e67",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-22 18:16:49",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:launch_data_import",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "39ffcf74ee087a42d582813d649bd04750c9ee37",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-22 14:05:58",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:advance_search_adjust",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "686c3ee7a936ae2ca94c9350ac6d4f0cf75c7e32",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-21 22:02:15",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:line_request_report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "7e683944d2453340a3df9e750f8c00113a38ab7f",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-21 21:14:14",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:line_request_report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "e951513ad3705fa0fc600c6b4760d6b8ab3b15a4",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-21 19:34:43",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:export_bug",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "a32f887424d09252996c96d13023eebc2b202b06",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-21 19:19:57",
+    "email": "siwei.song@tenclass.com",
+    "title": "Merge branch 'ssw-feat-report_20200617' into ssw-feat_wx_report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "65b924344a5d25157c51e8c56cff09ccac5ec7e1",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-21 11:11:52",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:style",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "53a26d25a8c38871aa3373c1b2f2861b84aaed97",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-21 10:22:08",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:linene—_request_report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "f835475732054920dc4f8ec952cbad837eaec37b",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-18 18:32:41",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:line_request_report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "497b2dffd8f0475ec147f727941457d472a07e1f",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-15 20:16:40",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat：report—_mpmp——id",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "0491569c2a2f758c76ef04e79d4c67144309151c",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-15 19:35:10",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:bug",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "51eff79b116ee110e70837a3aaf136b5006f0766",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-15 18:30:28",
+    "email": "siwei.song@tenclass.com",
+    "title": "dosc",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "e72a2476764a49efc03f829d8ba509cab254f102",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-15 18:29:22",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:word_wechat_remark",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "53dabea6473b0e6d6a853b3241e27ba420437f43",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-15 17:34:08",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:bug",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "c81b4fe61f43be4bdda9093948ae547e5a160912",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-15 17:24:58",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:bug",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "1dbe890cda5c1e708da81cb2f35af2fe0f2bef23",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-15 17:21:42",
+    "email": "siwei.song@tenclass.com",
+    "title": "Merge branch 'ssw-feat-business' into ys-feat-wecom_remark",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "10a42196a54559e0feb5cc598d0eacd9ca5b59bf",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-15 15:20:56",
+    "email": "siwei.song@tenclass.com",
+    "title": "Merge branch 'ssw-feat-business' into ys-feat-wecom_remark",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "8331d658ed3a119129f6b32c6ea582e7dc3812d2",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-15 14:19:19",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:line_slider",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "2efc07582f10b3203de4e03a70547827085aa321",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-15 11:15:19",
+    "email": "siwei.song@tenclass.com",
+    "title": "Merge branch 'ssw-feat-business' into ys-feat-wecom_remark",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "f894b81322b6c46c684672bca299056fb3760440",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-15 09:57:32",
+    "email": "siwei.song@tenclass.com",
+    "title": "docs",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "f724105d0510dc5d56eaf63c0b6879d65052bf13",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-15 09:55:31",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "90f8f46d0c14de939a8f4d4c7f74a78cd705bcbe",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-15 09:50:55",
+    "email": "siwei.song@tenclass.com",
+    "title": "Merge branch 'ssw-feat-report_20210608' into ssw-feat-report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "893216cbac75e0e393a5d3f02a212e00e7e89a3b",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-11 17:34:54",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:work_wechat_remark",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "148a80abf630eb8dd4e05efe4965af8836e097ad",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-11 17:29:55",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:work_wechat_remark",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "2dd5d0416e1cb37e6eae262211e641c349eb139e",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-11 11:27:49",
+    "email": "siwei.song@tenclass.com",
+    "title": "Merge branch 'ssw-feat-business' into ys-feat-wecom_remark",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "a94b3cdf4467f9f4860be140f4198bf7c80fcd77",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-11 11:26:10",
+    "email": "siwei.song@tenclass.com",
+    "title": "Merge branch 'uat' into ssw-feat-business",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "bd2fdcd3b73dc6ac73cb9175e9d2dc15bc67a9fd",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-11 11:17:50",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:work_remark",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "6a46716c0d760f0e2dfcfb163cb7dc492d570286",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-10 21:05:16",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:business",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "e653dae1fb0c2d4b2cfde8c434e650efaf483fb6",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-10 18:34:44",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:business",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "7205aaa4d1ea99080c7e77163021766d1ca7d9e7",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-10 17:55:06",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:business",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "3746b8bc42192d57aacfe660831e443018f8a50e",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-10 11:00:34",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:business_wx_remark",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "a39821b2858c41f6d88e111b934e9d8a2e79dea4",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-08 14:48:06",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:title",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "18f9c68f57370edce41b0abdfc7d9b6597300bea",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-08 12:26:50",
+    "email": "siwei.song@tenclass.com",
+    "title": "Merge branch 'ssw-re-sale_ui_rebuild' into ssw-feat-sale_ui",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "8802615eac3336f3f044ee65622823fb55a0c945",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-08 10:22:42",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:modify_text",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "01ddd861d81dc785f964e60278ff972bc7b50f5a",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-07 20:15:10",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:modify_text",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "f9c384a8174a421742557c7259aebdc22114c4d6",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-07 19:33:30",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "927d0953d3591f88eb04c53f6f2c6dc1e7b9ef1c",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-04 16:15:42",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "0b3501f5720631eb987da65553dfd36599efc14b",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-04 16:13:56",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "f71047861f68d717c5d78e5149d2595c0739e88b",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-04 15:57:27",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:modify_text",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "a6c4b4f369f4bc835464f5aa7fc5baf06e97242f",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-04 15:27:11",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:add_report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "59f743bbaf16f276f1651ecd49c3197916d9a665",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-03 20:18:14",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:modify_title",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "2f14db4b988f3dea510b5dbc130f96affa3ed50f",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-03 18:50:59",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:bug",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "4ad893697041183839efaa6f7ebcdf6faa30d344",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-03 16:28:20",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:unit",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "0c68baee4f60e1d137e9fafb4ba5cf8bc10c044d",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-03 09:13:09",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:modify_title",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "83a74fb8316cb45767b4791991050488159809ac",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-02 19:25:11",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "d14e8ffcf2b05f90416c01bf1f2ae263ff9b4503",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-02 18:59:48",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:bug",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "e825f457ad790a5aebc8a8f0073a9d47afc1551f",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-02 18:38:32",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:bug",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "2773f6e4f21122e8b6b50bc238c6dedf46e9cb5f",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-02 17:52:47",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:search_bug",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "fdb97fb49cbcd45ae359079a69230020cbcf23c3",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-02 17:39:28",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:liveboard",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "6441b925a8c0e7168d935f088f95a9108727ea84",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-02 16:50:23",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "504d68a8c0a052a8545a80810e4011a29b754657",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-02 10:56:21",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:search_style",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "625e4c21e864723bd71976959f028b4939ea983a",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-01 20:09:10",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:modify_title",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "f834937b90efc6dff56ef870a19f47b9357c0d22",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-01 20:06:01",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:modify_title",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "a15eedde32d4a2b59b966ee646f176765d631197",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-01 17:43:10",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:add_permission",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "432706926f8198cd880a7fcf47ccb5d7badc0a55",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-01 16:36:37",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:nvwa_record",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "f2f54a6a6ca13c60b2f33494a9009db2b8058451",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-01 15:11:44",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "0968ea4882d006bea6ed46dea48f072654b4de38",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-06-01 10:54:47",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:nvwa_record_board",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "7b8f9aff6a7cacf6a94f33afd51bb3f82dc78b49",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-31 18:09:01",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "6550782f7ac032849d9cdc7d54eae84af17c940d",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-31 17:49:37",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "ba86a8b091d8da6451712b59d27b25dfeb09d25e",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-31 17:34:49",
+    "email": "siwei.song@tenclass.com",
+    "title": "Merge branch 'ssw-feat-user_portrait' into ssw-feat-report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "ccc485d889de081563e9c449ad8a405e693d6a9a",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-31 11:50:08",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:sale_manage",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "77cfea2fdba03f358d3c02df6b0bae7965c7e359",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-31 11:04:22",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:sale_manage",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "243ed4cf293e5d8144231becaa40f05b18007e6b",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-28 12:34:32",
+    "email": "siwei.song@tenclass.com",
+    "title": "hotfix:report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "978704386dd35c851f148fe94f4cc89c7b775da5",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-28 10:16:07",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix_sale_manage",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "5dfd27be50ea1abe09863b421e6c7e80b981a955",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-27 19:50:09",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:bug",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "de0515a218102d1abc1df9b126e8334229f2bae9",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-27 19:36:00",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "047c3f3d1d0ac4bc397fd8a2c3480e54c04f6333",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-27 18:20:28",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:sale",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "2d032d48761aadea8d2706388016763893bc16cd",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-27 18:15:20",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:sale_manage",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "1903b9fec3b1b4346410a67c06183addc96c612c",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-27 14:58:35",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:sale—_manage",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "9b38cd4ec05c8ce2851ad50ec14a5d348b46a85f",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-27 14:47:32",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:sale_manage",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "e0151c5452975feb8ee460d8bb00ed51f355143d",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-27 14:23:51",
+    "email": "siwei.song@tenclass.com",
+    "title": "Merge branch 'ssw-feat-sale' into ssw-feat-sale_manage",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "8751e51f4343547b1b6d530511d65dd1343d5707",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-27 10:44:17",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:sale",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "e20d558a7e7c482edf0c36d28d7a02f4b39553d7",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-27 10:31:16",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:sale",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "81733949a34880a23025050c5c4fce5a8d473d03",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-27 09:56:51",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:sale",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "251425fb795a190ab265dc2f66b63ff9ba3bffca",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-26 20:16:22",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:customer_conversion_report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "2cfda4898de18e6103fd9812d5001f960579d4e8",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-26 14:48:29",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:drainage_report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "9382c51964d059255e3490a1e56ccca88b51c388",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-26 10:18:07",
+    "email": "siwei.song@tenclass.com",
+    "title": "drainage_report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "51e0a5c68b5fb1db09e21ff023c6662f524bc879",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-24 18:13:26",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:delivery_report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "4f21a2f484c7bc53c50583ac6916428b551a5054",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-24 15:52:01",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:delivery_report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "0e0a49f2f497751ebc795854f657771033e11114",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-24 11:57:57",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:delivery_report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "5e8bd0370efc07f08279b260b448ecbc93328f69",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-24 11:39:26",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:sale",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "ed4cfa23fd95418ed1940f04e3aec75d9d585291",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-24 11:14:20",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:sale",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "fddb35b33b0759357d565ec7e3a1dbc9b4e87b96",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-24 10:16:33",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:customer_delivery_report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "36eccc39ebd6af061f77a92c94f20f5c7ea1c567",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-21 20:07:30",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:customer_devivery_report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "1192450490d6416eabc12ec61c4fb865cb39d19c",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-20 11:45:11",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:report_date",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "cafbbfdfb10344c7f2d254372605b1d66b6d9184",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-19 17:09:47",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:chart_DownUp",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "3e2220d23a3332884a9e37122cc0c9186af35503",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-19 15:54:14",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:chart_line",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "d83858087b969ae655a489e907f4f6d26b0a6e77",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-19 10:54:37",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:chart_downup",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "17a39259531b5c570d27981d107c7b159f8c8191",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-19 10:32:05",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:chart",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "8670c7e461e23b50fea9be24f9324c2a8b0ab4da",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-19 10:14:19",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:chart",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "8fd3e31a9c63e3fbc1e03ecdefa1f4dd0534dfbc",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-18 16:29:19",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:live_board",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "b337a980130bc5b9f7f150fa302031ea52f266d4",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-18 16:07:25",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:chart",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "d34f58d079dbcd07878954db4af57a2df0474904",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-18 14:22:42",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:custom_fixed",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "ff7e55abb50534be5ad38f9e2de9d729a2d42a00",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-18 11:46:19",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:chart",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "66d3034de59e4427186b42bc1a6633ce0cb68bec",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-18 11:07:04",
+    "email": "siwei.song@tenclass.com",
+    "title": "re:codede_rebuild",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "811bfe6073e4273b66ef1e5bebd9f61a6e3341ab",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-18 11:03:59",
+    "email": "siwei.song@tenclass.com",
+    "title": "re:code——_rebuild",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "be297020094ceeb45a721ba2d593c916ee18f13b",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-18 10:33:11",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:custom_fixed",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "88264af3fc9fae2e10302e8e30c65fc0557f02b4",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-17 20:31:59",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:report_custom_fixed",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "32b930d95f96e930c75ef2ca7e119178e9daf59f",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-17 15:06:10",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:live_chart_user",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "d68dee5d9eb8a5154c5842f9364c3ab24aca12e9",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-17 11:58:57",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:no_wx_report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "88fdd80b52975bde845c8c0f3a0275bfd241f801",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-17 11:25:20",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:column_custom—_fixed",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "a3137513725340ded9570b5b932f1e4443ab9b06",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-14 17:29:04",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:bug",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "c335ae8082436739e3e703c792869d4e7f75c449",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-14 17:10:17",
+    "email": "siwei.song@tenclass.com",
+    "title": "featat:custom_fix",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "f83a6d4e654f4b3b15a0de50a8d8dc8da1119762",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-13 18:04:06",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:no_wx_report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "7098a75956d6206557a87f98580db6a5ce38fd0b",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-13 17:54:17",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:custom_fixed",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "707026f67cf0da2af8d499ba079e1820636cc0c2",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-13 16:11:35",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat_report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "4da65392b0a77130a79dd6f8d43d76762d78e4c6",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-13 11:14:01",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:no_wxwx_channel_report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "88f3e0b4251682ab03cac2e499ab401e3b50e27d",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-13 09:38:12",
+    "email": "siwei.song@tenclass.com",
+    "title": "del_console",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "37d922be14f829d02e2de2f2cfb219377c9a339e",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-12 20:50:58",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:Dy_report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "8a78a6a3b65ecc552cf62a858aa84407b2f994e5",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-12 20:17:15",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:Dy_report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "63679884d850d74e196abece089fff6c53e8412b",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-12 20:04:35",
+    "email": "siwei.song@tenclass.com",
+    "title": "Merge branch 'ssw-feat-report_DyCreative' into ssw-feat-Dy_report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "7781b09618b46839a3fe5a555ea83c96f69dad44",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-11 17:02:42",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:chart_bug",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "e4f059d649e44ff6701a39bd2d6900a7fede9c27",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-11 17:01:22",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:chart_bug",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "04fc63260c90daccf77cba96c44a3a8754810fab",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-11 11:39:54",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:business",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "31c24f5041ad9670e8308e12bed1706291a079be",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-08 12:24:02",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:sale_report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "f92443962e1403730267ce02887e52cc02072ff7",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-07 21:00:44",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:baiduReport",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "efda39d2c6b2d927a67c3366c2af3383516a5a48",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-07 20:25:31",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:code_review",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "ee4f04ab569f08d449ceeb410394b39a92888b46",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-07 19:34:54",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "33c6d130bd59b49accab280868092b3f5293cf53",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-07 19:24:46",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "9bc82e7e625a6683a416310861f5b30f588959c2",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-07 19:11:03",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "446cde3cfe469c9bae7a5acce42be8b54302a7ce",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-07 11:37:38",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:bug",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "f00df84c86484a81a7e29643334d1e67c9ecd523",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-07 11:16:58",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:reportTS",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "1b3c38adca1d6024c906aaf1f46ba60241c3144d",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-07 09:21:07",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "7c0c35830f12b5cd9922b233360256000af0f134",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-06 19:55:02",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:sale_report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "702b0f03aec34538e60a6966377b4effdc81b58f",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-06 19:09:01",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:user_id",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "9d79a9b88ada02f96ec03d8806b82857fc60f8a1",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-06 17:42:56",
+    "email": "siwei.song@tenclass.com",
+    "title": "conflict",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "cd327ae3444e095d99f6bb2b0aa1daf3a7c67d79",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-05-06 17:26:08",
+    "email": "siwei.song@tenclass.com",
+    "title": "Merge branch 'ssw-feat-reportColumns' into ssw-feat-reportNew_uat",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "248f17417633ebebaed357537d3fae825823ab4e",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-04-30 15:23:24",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:bug",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "2d7a351e6603bbc41e8cf757974a8eb60bae2e53",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-04-29 16:18:41",
+    "email": "siwei.song@tenclass.com",
+    "title": "title加空格",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "2e71083e8d5be3d2adf6b3fec24ab3f569d79d45",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-04-28 20:42:48",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:breadNav",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "def42a283cc8932435e23f88c699da4c29cf2936",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-04-28 20:40:50",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:面包屑导航",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "7aa9f35bdef228cc78372c5a24c1593e66589cf1",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-04-28 20:11:23",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "22856d6e4df1c79adb940ef9681ea8844a6b0366",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-04-28 20:00:33",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:ui",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "07cda85c089601b4a826a6aeeb9195471bb3b864",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-04-28 19:55:31",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "9ab080944fefa1b57cc8b1e00da0dfb4eefbad34",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-04-28 18:36:18",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:ui",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "bee8c46d744ec0c5e36f51b60e6f714ad5623b65",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-04-28 18:21:13",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:ui",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "4926762f78d09a6b7093c9d8dbca502c56870721",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-04-28 16:22:29",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:ui",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "f6bd9620819398e524cab794fa1e3eee996e2940",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-04-28 16:20:16",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:ui",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "13d09edeb8b7bcefa08ce8e4d925d3c1770e5ef3",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-04-28 14:08:54",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "6d45b60432c52178112974c199dbe20dcb1f6b83",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-04-28 12:35:13",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:report_ui",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "7ca6959560adb4f88a23aba346d5abe2a56f8758",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-04-28 11:04:50",
+    "email": "siwei.song@tenclass.com",
+    "title": "扩展高级搜索",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "b971beae550e752aa3b2e45891d10fc207de1c6c",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-04-28 10:11:24",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "1a37021c2731678c847a485d9dd89a000280dc13",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-04-27 21:03:25",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:report",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "d2d7b389747f4db925e098d608636d117bbc6da8",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-04-27 19:35:46",
+    "email": "siwei.song@tenclass.com",
+    "title": "Merge branch 'ssw-feat-report' into ssw-feat-repoet_uat",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "1e256dd830b3672b7b64b392480753fe4d5331d1",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-04-26 15:15:21",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:databoard",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "3b9340d702841273ed23d5c21eb32b756f425d33",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-04-26 11:42:18",
+    "email": "siwei.song@tenclass.com",
+    "title": "review",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "187df2d898fcc6d3869519afd656e4d8ea650377",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-04-25 16:49:53",
+    "email": "siwei.song@tenclass.com",
+    "title": "隐藏设备状态",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "a6d24126de969dcfc542776871b1bd6924623d4d",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-04-22 20:19:39",
+    "email": "siwei.song@tenclass.com",
+    "title": "dosc",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "65d1c926b3ab34b4374cd3aad661a770ac795a72",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-04-22 20:06:27",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:delete console",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "e1cf1afae37522cd8991049ea4cbf3e18b495183",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-04-22 19:38:32",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:bug",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "867e76dc041446aa5138a8899a3de922ef55874c",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-04-22 16:20:25",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:bug",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "aa0c4175489548011964ec44d96344195defa584",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-04-22 15:36:01",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:UI",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "d840d125f822902aa1e0ee3c13f33a2db9416afd",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-04-22 15:23:17",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix UI",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "052521a34bbb2a324df7f5b621560ff7418dd7e5",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-04-22 13:01:44",
+    "email": "siwei.song@tenclass.com",
+    "title": "dosc",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "04da398f4e34ecf20b7679cc6b72fa6540219a34",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-04-22 12:57:41",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:business ui rebuild",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "b3490433013aedbcf96fcc91c216e320be378b35",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-04-21 19:58:58",
+    "email": "siwei.song@tenclass.com",
+    "title": "修改待支付字段",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "db24503073b66c13f83cc744b36e971d5de01f60",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-04-21 18:15:54",
+    "email": "siwei.song@tenclass.com",
+    "title": "完善直播看板字段",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "6468ecd7825a7b492ffd2f333abc2538286560a4",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-04-21 17:37:39",
+    "email": "siwei.song@tenclass.com",
+    "title": "完善直播看板字段",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "94aba58f131f14cff2e0abe1e53875ba2027599b",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-04-20 19:20:31",
+    "email": "siwei.song@tenclass.com",
+    "title": "1.数据看板优化需求",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "0c7e074dc2189c9db60e0e8363012ac37f9c543c",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-04-20 16:49:21",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:bug",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "f2463b08af7e125caec92018994ba00128d6a1e6",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-04-19 18:38:59",
+    "email": "siwei.song@tenclass.com",
+    "title": "review",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "086301de2977669850238c09ff029dc76a9ae52b",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-04-19 18:29:20",
+    "email": "siwei.song@tenclass.com",
+    "title": "dosc",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "8165995d0170e5839522cbdc439ce848cb88d3d4",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-04-19 17:37:38",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:liveboard",
+    "repo_path": "/Users/yidoon/Desktop/shifang/crm-fe"
+  },
+  {
+    "commit": "b2f3fe327085d3a12d3f7b1bdc3f5013c70721b4",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-03 17:32:39",
+    "email": "siwei.song@tenclass.com",
+    "title": "学员信息年龄段更新",
+    "repo_path": "/Users/yidoon/Desktop/shifang/shop-fe"
+  },
+  {
+    "commit": "5c2102f1fcea31f2e562800f76c7448b17ebab79",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-20 16:55:04",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改ios15二维码长按放大问题",
+    "repo_path": "/Users/yidoon/Desktop/shifang/shop-fe"
+  },
+  {
+    "commit": "e0fe2f8f7ae86b5a4aa5fd73f02e3299b9578a87",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-18 09:58:38",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 学员信息班主任二维码",
+    "repo_path": "/Users/yidoon/Desktop/shifang/shop-fe"
+  },
+  {
+    "commit": "0e0676a6bbf639ce309c7d48f07bb12bb7e1ada3",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-15 19:35:57",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 去掉返回表单跳转",
+    "repo_path": "/Users/yidoon/Desktop/shifang/shop-fe"
+  },
+  {
+    "commit": "3fd19e80124ad93e02a57ab1091e6e36d7bb5e0f",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-15 18:44:56",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:ui",
+    "repo_path": "/Users/yidoon/Desktop/shifang/shop-fe"
+  },
+  {
+    "commit": "2ba0a1b172641aa9578f961576ab5ee8a9814198",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-15 17:36:29",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:ui",
+    "repo_path": "/Users/yidoon/Desktop/shifang/shop-fe"
+  },
+  {
+    "commit": "d3fde0fa6a426c7b58b9a6232b309f3e6c292c02",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-15 17:15:14",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:ui",
+    "repo_path": "/Users/yidoon/Desktop/shifang/shop-fe"
+  },
+  {
+    "commit": "3ed618380c7b31b15d42971572b21cadd7ec6188",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-15 17:12:26",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix:ui",
+    "repo_path": "/Users/yidoon/Desktop/shifang/shop-fe"
+  },
+  {
+    "commit": "64f8c92e619aea598705d67d0f146f41339be244",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-15 14:40:58",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改班主任昵称字段",
+    "repo_path": "/Users/yidoon/Desktop/shifang/shop-fe"
+  },
+  {
+    "commit": "0fb9f9824adcec20da15b8f3196109a80d1ed7db",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-15 14:34:06",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改班主任昵称字段",
+    "repo_path": "/Users/yidoon/Desktop/shifang/shop-fe"
+  },
+  {
+    "commit": "88be2fd4e504820b5a97e84323603cf1ca068749",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-15 11:22:33",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:学员信息表班主任二维码",
+    "repo_path": "/Users/yidoon/Desktop/shifang/shop-fe"
+  },
+  {
+    "commit": "b819d94809f5c90e113ad02c1ad055a060761cf5",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-15 09:35:42",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 学员信息表班主任二维码",
+    "repo_path": "/Users/yidoon/Desktop/shifang/shop-fe"
+  },
+  {
+    "commit": "58dff32dc8f11d4199d41c5ff7eeb783f1a97a8f",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-15 09:24:33",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 学员信息表班主任二维码",
+    "repo_path": "/Users/yidoon/Desktop/shifang/shop-fe"
+  },
+  {
+    "commit": "7fcee893a275a792cf4a51c67d1c383f048c40b4",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-14 19:56:29",
+    "email": "siwei.song@tenclass.com",
+    "title": "修改图片选中",
+    "repo_path": "/Users/yidoon/Desktop/shifang/shop-fe"
+  },
+  {
+    "commit": "5a44d7c044e3440adfc59699a308aaf4ddcc8533",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-14 19:44:51",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 设置文案长按不选择",
+    "repo_path": "/Users/yidoon/Desktop/shifang/shop-fe"
+  },
+  {
+    "commit": "1da728c876f4e2b739f579e8e01ec7f532e5bd92",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-14 19:30:11",
+    "email": "siwei.song@tenclass.com",
+    "title": "学员信息班主任二维码长按加微信",
+    "repo_path": "/Users/yidoon/Desktop/shifang/shop-fe"
+  },
+  {
+    "commit": "e800f935181e6f9f5bf97cc061fbdcb452468f05",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-14 19:28:10",
+    "email": "siwei.song@tenclass.com",
+    "title": "学员信息班主任二维码长按加微信",
+    "repo_path": "/Users/yidoon/Desktop/shifang/shop-fe"
+  },
+  {
+    "commit": "63b43697fba9a9a83a9172cb439c8f659946c231",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-14 19:08:42",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 学员信息班主任二维码",
+    "repo_path": "/Users/yidoon/Desktop/shifang/shop-fe"
+  },
+  {
+    "commit": "9a1835bb3138fba589341950012dc78ef4afdb32",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-10-13 18:56:06",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 学员信息表单提交后增加班主任二维码",
+    "repo_path": "/Users/yidoon/Desktop/shifang/shop-fe"
+  },
+  {
+    "commit": "b9ba5b702c30283245364041b293d811126f92e6",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-28 16:24:12",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改表单验证问题",
+    "repo_path": "/Users/yidoon/Desktop/shifang/shop-fe"
+  },
+  {
+    "commit": "669abbe4a7aeb9b8db6ffd70dac5ba541fed56ec",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-28 15:14:19",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改表单验证问题",
+    "repo_path": "/Users/yidoon/Desktop/shifang/shop-fe"
+  },
+  {
+    "commit": "938c2b5c2f8d56f9ecbd1a7a8848aae21d403dc0",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-27 11:31:06",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 完善个人信息",
+    "repo_path": "/Users/yidoon/Desktop/shifang/shop-fe"
+  },
+  {
+    "commit": "d10826760c51e6a6ab5d09700e5aa428053200e4",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-26 15:39:19",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:学员信息增加字段",
+    "repo_path": "/Users/yidoon/Desktop/shifang/shop-fe"
+  },
+  {
+    "commit": "880d82a04d892d7bb7e3669948cb307080ea095f",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-26 14:33:21",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 学员信息增加字段",
+    "repo_path": "/Users/yidoon/Desktop/shifang/shop-fe"
+  },
+  {
+    "commit": "5b937c2cf20f6a2a41299109a9b1aa7a1c783037",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-24 11:40:33",
+    "email": "siwei.song@tenclass.com",
+    "title": "同步学员信息年龄段文案",
+    "repo_path": "/Users/yidoon/Desktop/shifang/shop-fe"
+  },
+  {
+    "commit": "8becb74b6b781dfc678a79bf43e4323f5cbffb2d",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-17 11:03:46",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: C端用户信息缓存问题",
+    "repo_path": "/Users/yidoon/Desktop/shifang/shop-fe"
+  },
+  {
+    "commit": "95691c951115e86795245ca6fe866ef7d7e93b4c",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-16 20:03:40",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: C端学员信息表单必填优化",
+    "repo_path": "/Users/yidoon/Desktop/shifang/shop-fe"
+  },
+  {
+    "commit": "34d719b3c0af669bfb2d1f267162bcd21ff2fb57",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-16 19:47:39",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 修改缺陷",
+    "repo_path": "/Users/yidoon/Desktop/shifang/shop-fe"
+  },
+  {
+    "commit": "462b1439fac5c1a45fcaef006e915ec970cb695d",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-16 18:40:13",
+    "email": "siwei.song@tenclass.com",
+    "title": "fix: 学员信息C端优化",
+    "repo_path": "/Users/yidoon/Desktop/shifang/shop-fe"
+  },
+  {
+    "commit": "99b3b4200ffbeae88084f92c197993fade479456",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-16 14:14:19",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 完善信息填写",
+    "repo_path": "/Users/yidoon/Desktop/shifang/shop-fe"
+  },
+  {
+    "commit": "b27bb155768f130a7b0f641e5eb31625b57111da",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-16 12:37:50",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 完善商机学员信息",
+    "repo_path": "/Users/yidoon/Desktop/shifang/shop-fe"
+  },
+  {
+    "commit": "301da3e18559ca86ed6f48d2bb512a5181e31aa5",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-15 20:41:38",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 商机信息录入",
+    "repo_path": "/Users/yidoon/Desktop/shifang/shop-fe"
+  },
+  {
+    "commit": "3e217ea6622e333773744a12796a34daefdcf386",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-15 11:47:46",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:学员信息录入",
+    "repo_path": "/Users/yidoon/Desktop/shifang/shop-fe"
+  },
+  {
+    "commit": "6cee174e5d2e367cd273bb2753bea5a4517a57b2",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-15 11:30:12",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: 商机学员信息录入",
+    "repo_path": "/Users/yidoon/Desktop/shifang/shop-fe"
+  },
+  {
+    "commit": "4234d7a5b192dc6272a1ba2b87cb135d6f72d2f2",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-14 20:29:40",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat:学员信息协同",
+    "repo_path": "/Users/yidoon/Desktop/shifang/shop-fe"
+  },
+  {
+    "commit": "21c99a2673483afd01e67a207ae31ff91feea62a",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-09-14 19:15:59",
+    "email": "siwei.song@tenclass.com",
+    "title": "Merge branch 'feat/business-user-info-ssw' into feat/business-user-info-ssw-master",
+    "repo_path": "/Users/yidoon/Desktop/shifang/shop-fe"
+  },
+  {
+    "commit": "0c2ddf0fc7511945ab1950a248192395d8411afa",
+    "commit_notes": "",
+    "author": "songsiwei",
+    "commit_name": "songsiwei",
+    "date": "2021-11-15 12:01:40",
+    "email": "siwei.song@tenclass.com",
+    "title": "feat: arms超额问题",
+    "repo_path": "/Users/yidoon/Desktop/shifang/study-fe"
+  }
+]

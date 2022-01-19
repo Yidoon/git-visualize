@@ -3,6 +3,7 @@ const contributorService = require("./contributor");
 const fileService = require("./file");
 const repoService = require("./repo");
 const statisticsService = require("./statistics");
+const reportService = require('./report')
 
 module.exports = {
   branchService,
@@ -10,4 +11,5 @@ module.exports = {
   fileService,
   repoService,
   statisticsService,
+  reportService
 };

@@ -6,8 +6,10 @@ const {
   fileService,
   repoService,
   statisticsService,
+  reportService,
 } = require("../services");
 const { excuteCommand } = require("../utils");
+const dayjs = require("dayjs");
 const router = new Router({
   prefix: "/gv",
 });
@@ -86,12 +88,17 @@ router.get("/commit_by_month", async (ctx) => {
 });
 // branch
 router.get("/branchs", async (ctx) => {
+  console.log("/branchs");
   const res = await branchService.getLocalBranches(CRM_PATH);
-  ctx.response.body = res;
+  ctx.body = {
+    code: 0,
+    data: res,
+    msg: "",
+  };
 });
 
 // search commit
-router.get("/search", () => {});
+// router.get("/search", () => {});
 
 /**
  * contributors
@@ -150,13 +157,48 @@ router.get("/word_could", async (ctx) => {
     data: res,
   };
 });
-/**
- * the keywords of different contributors
- */
-router.get("/contributor_keywords", () => {});
+
+router.get("/search", async (ctx) => {
+  console.log("search");
+  const res = await repoService.getGitLogList(ctx.query, CRM_PATH);
+  // ctx.response.body = res;
+  ctx.body = {
+    data: res,
+    msg: "success",
+    code: 0,
+  };
+});
+
 /**
  * delete local & remote branch
  */
 router.get("branch_delete", () => {});
+
+router.get("/commit_by_branchs", async (ctx) => {
+  const query = ctx.query;
+  const res = await repoService.getCommitByBranchs(CRM_PATH, query);
+  ctx.body = {
+    data: res,
+    code: 0,
+    msg: "",
+  };
+});
+
+router.get("/report", async (ctx) => {
+  const query = ctx.query;
+  const author = query.author;
+  const params = {
+    author: author,
+    after: dayjs("2021-01-01").unix(),
+    before: dayjs("2021-12-31").unix(),
+    noMerge: true,
+  };
+  const res = await reportService.generateData(params);
+  ctx.response.body = {
+    data: res,
+    code: 0,
+    msg: "",
+  };
+});
 
 module.exports = router;

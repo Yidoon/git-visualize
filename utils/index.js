@@ -63,8 +63,13 @@ const getNearlyDays = (day) => {
   return result;
 };
 
-const getMonthOfYear = () => {
-  const startYear = dayjs().startOf("year").format(formatStr);
+const getMonthOfYear = (specDate) => {
+  let startYear;
+  if (specDate) {
+    startYear = dayjs(specDate).startOf("year").format(formatStr);
+  } else {
+    startYear = dayjs().startOf("year").format(formatStr);
+  }
   const monthArr = [];
   for (let i = 1; i < 12; i++) {
     let temp = {
@@ -82,10 +87,42 @@ const getMonthOfYear = () => {
   });
   return monthArr;
 };
+const createParser = function () {
+  let lastLineData = "";
+
+  let strm = new stream.Transform({
+    objectMode: true,
+
+    transform: function (chunk, encoding, cb) {
+      let _this = this;
+      let data = String(chunk);
+      if (lastLineData) {
+        data = lastLineData + data;
+      }
+      let lines = data.split("\n");
+      lastLineData = lines.splice(lines.length - 1, 1)[0];
+      lines.forEach(function (l) {
+        l && _this.push(l);
+      });
+      cb();
+    },
+
+    flush: function (cb) {
+      if (lastLineData) {
+        this.push(lastLineData);
+      }
+      lastLineData = "";
+      cb();
+    },
+  });
+
+  return strm;
+};
 
 module.exports = {
   excuteCommand,
   createDataParser,
   getNearlyDays,
   getMonthOfYear,
+  createParser,
 };

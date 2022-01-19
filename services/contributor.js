@@ -71,7 +71,7 @@ const getContributorCommitData = async (repoPath) => {
   const contributors = await getContributor(repoPath);
   const resultMap = {};
   contributors.forEach((item) => {
-    let key = peoples[item.contributor.trim()];
+    let key = item.contributor.trim();
     if (key) {
       if (resultMap[key]) {
         resultMap[key] = +item.commit_count + resultMap[key];
@@ -92,7 +92,7 @@ const getContributorCommitDataByMonth = async (repoPath, contributor) => {
   if (repoPath) {
     chdir(repoPath);
   }
-  const mongthArr = getMonthOfYear();
+  const mongthArr = getMonthOfYear("2021-01-01");
   let cmdStr = "";
   let authorStr = "";
   const result = [];

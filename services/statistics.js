@@ -50,8 +50,9 @@ const mergeSplitData = (baseData, addData) => {
   return baseData;
 };
 const getWordCloud = async (repoPath, contributor) => {
-  const authorStr = contributor ? `author="${contributor}"` : "";
+  const authorStr = contributor ? `--author="${contributor}"` : "";
   const cmdStr = `git log --no-merges ${authorStr} --pretty='%an,%B<vsz />'`;
+  console.log(cmdStr);
   const authorCommitMsg = {};
   const result = {};
   const pattern = /([^,]+)(.*)/;
@@ -99,6 +100,9 @@ const getWordCloud = async (repoPath, contributor) => {
     };
   }
 };
+/**
+ * 获取本周commit概览
+ */
 const getWeekCommitView = async (repoPath) => {
   const result = [];
   const daysArr = getNearlyDays(14);
@@ -128,6 +132,7 @@ const getWeekCommitView = async (repoPath) => {
     up_rate: (rate * 100).toFixed(2),
   };
 };
+
 module.exports = {
   getWordCloud,
   getWeekCommitView,
