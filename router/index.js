@@ -200,5 +200,22 @@ router.get("/report", async (ctx) => {
     msg: "",
   };
 });
+router.get("/commit_detail", async (ctx) => {
+  const commit = ctx.query.commit;
+  const params = {
+    commit: commit,
+    repoPath: CRM_PATH,
+  };
+  try {
+    const res = await repoService.getCommitDetail(params);
+    ctx.response.body = {
+      data: res,
+    };
+  } catch (err) {
+    ctx.response.body = {
+      data: "",
+    };
+  }
+});
 
 module.exports = router;

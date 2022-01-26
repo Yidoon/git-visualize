@@ -122,8 +122,16 @@ const getCommitByBranchs = async (repoPath, params) => {
   list = _.uniqBy(list, "commit");
   return list;
 };
+const getCommitDetail = async (params) => {
+  // const cmdStr = ` git ls-tree --name-only -r ${params.commit}`;
+  const cmdStr = `git show --stat --oneline ${params.commit}`;
+  console.log(cmdStr, "cmdStr");
+  const res = await excuteCommand(cmdStr, params.repoPath);
+  return res;
+};
 module.exports = {
   getCodeLineNumOfRepo,
   getGitLogList,
   getCommitByBranchs,
+  getCommitDetail,
 };
