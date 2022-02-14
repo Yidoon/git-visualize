@@ -1,35 +1,37 @@
 {
-  "name": "git-visialize",
   "version": "1.0.0",
-  "description": "A tool to visialize your git repo",
-  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "build": "rm -rf dist && tsc",
+    "pro": "npx pm2 start ecosystem.config.js --env production",
+    "restart": "pm2 restart ecosystem.config.js --env production",
+    "stop": "npx pm2 stop ecosystem.config.js",
+    "prettier": "prettier --write '**/*.{ts,js,json,md}'"
+  },
   "dependencies": {
-    "dayjs": "^1.10.7",
-    "koa": "^2.13.4",
-    "koa-body": "^4.2.0",
-    "koa-bodyparser": "^4.3.0",
-    "koa-json": "^2.0.2",
-    "koa-logger": "^3.2.1",
-    "koa-router": "^10.1.1",
-    "lodash": "^4.17.21",
-    "nodejieba": "^2.5.2"
+    "dotenv": "^8.2.0",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0"
   },
   "devDependencies": {
-    "cross-env": "^7.0.3",
-    "nodemon": "^2.0.15"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon main.js "
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Yidoon/git-visialize.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Yidoon/git-visialize/issues"
-  },
-  "homepage": "https://github.com/Yidoon/git-visialize#readme"
+    "@commitlint/cli": "^16.1.0",
+    "@commitlint/config-conventional": "^16.0.0",
+    "@types/koa": "^2.0.48",
+    "@types/koa-bodyparser": "^4.2.2",
+    "@types/koa-router": "^7.0.40",
+    "@types/node": "^12.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.11.0",
+    "@typescript-eslint/parser": "^5.11.0",
+    "eslint": "^8.8.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "^7.28.0",
+    "husky": "^7.0.4",
+    "nodemon": "^1.19.0",
+    "pm2": "^3.5.0",
+    "prettier": "2.5.1",
+    "ts-node": "^8.1.0",
+    "tsconfig-paths": "^3.8.0",
+    "typescript": "^3.4.5"
+  }
 }

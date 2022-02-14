@@ -1,2 +1,3 @@
-# git-visialize
-A tool to visialize your git repo
+# Git visualize
+
+visualize more info about git repo
