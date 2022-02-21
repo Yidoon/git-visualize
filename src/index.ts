@@ -14,10 +14,8 @@ console.log(PORT, 'PORT')
 AppRoutes.forEach((route) => router[route.method](route.path, route.action))
 
 app.use(bodyParser())
-// app.use(router.routes())
-// app.use(router.allowedMethods())
-app.use(api.routes())
-app.use(api.allowedMethods())
+app.use(router.routes())
+app.use(router.allowedMethods())
 app.listen(PORT)
 
 console.log(`应用启动成功 端口:${PORT}`)

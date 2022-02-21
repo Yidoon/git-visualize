@@ -1,4 +1,5 @@
 import homeController from './controller/home-controller'
+import repoController from './controller/repo-controller'
 
 export default [
   {
@@ -7,8 +8,8 @@ export default [
     action: homeController.hello,
   },
   {
-    path: '/init_project',
+    path: '/repo',
     method: 'get',
-    action: homeController.hello,
+    action: repoController.getRepo,
   },
 ]

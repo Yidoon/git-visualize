@@ -13,7 +13,7 @@ export const getRepoCreateTime = async (githubRepoUrl: string) => {
   const gitUrlObj = parseGitUrl(githubRepoUrl as string)
   const res = await octokit.request('GET /repos/{owner}/{repo}', {
     owner: gitUrlObj.owner,
-    repo: gitUrlObj.project_name,
+    repo: gitUrlObj.repo,
   })
   const data = {
     create_time: dayJs(res.data.created_at).format('YYYY-MM-MM HH:mm:ss'),

@@ -27,8 +27,6 @@ router.get('/init', async (ctx, next) => {
     repo: gitUrlObj.project_name,
   })
   const createDate = dayJs(res.data.created_at).format('YYYY-MM-MM HH:mm:ss')
-  console.log(createDate, 'createDate')
-
   ctx.body = {
     code: 200,
     msg: 'success',
