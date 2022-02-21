@@ -6,4 +6,9 @@ export default [
     method: 'get',
     action: homeController.hello,
   },
+  {
+    path: '/init_project',
+    method: 'get',
+    action: homeController.hello,
+  },
 ]

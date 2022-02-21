@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "scripts": {
-    "start": "nodemon",
+    "dev": "nodemon",
     "build": "rm -rf dist && tsc",
     "pro": "npx pm2 start ecosystem.config.js --env production",
     "restart": "pm2 restart ecosystem.config.js --env production",
@@ -9,6 +9,8 @@
     "prettier": "prettier --write '**/*.{ts,js,json,md}'"
   },
   "dependencies": {
+    "@octokit/core": "^3.5.1",
+    "dayjs": "^1.10.7",
     "dotenv": "^8.2.0",
     "koa": "^2.7.0",
     "koa-bodyparser": "^4.2.1",
