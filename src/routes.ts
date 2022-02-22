@@ -12,4 +12,9 @@ export default [
     method: 'get',
     action: repoController.getRepo,
   },
+  {
+    path: '/temp_clone',
+    method: 'get',
+    action: repoController.tempClone,
+  },
 ]

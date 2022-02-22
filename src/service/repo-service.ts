@@ -9,5 +9,6 @@ export default class RepoService {
       owner: owner,
       repo: repo,
     })
+    return res
   }
 }

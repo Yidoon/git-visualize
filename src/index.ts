@@ -2,11 +2,12 @@ import * as Koa from 'koa'
 import * as Router from 'koa-router'
 import * as bodyParser from 'koa-bodyparser'
 import { PORT } from './config'
-import api from './router'
 import AppRoutes from './routes'
 
 const app = new Koa()
-const router = new Router()
+const router = new Router({
+  prefix: '/gv',
+})
 
 console.log(PORT, 'PORT')
 
