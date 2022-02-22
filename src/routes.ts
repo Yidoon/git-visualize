@@ -8,13 +8,29 @@ export default [
     action: homeController.hello,
   },
   {
-    path: '/repo',
+    path: '/github/repo',
     method: 'get',
     action: repoController.getRepo,
   },
   {
-    path: '/temp_clone',
+    path: '/local/repo',
+    method: 'get',
+    action: repoController.getRepo,
+  },
+  {
+    path: '/github/temp_clone',
     method: 'get',
     action: repoController.tempClone,
+  },
+  {
+    path: '/test',
+    method: 'get',
+    action: async (ctx) => {
+      ctx.body = {
+        code: 200,
+        msg: 'success',
+        data: 'test',
+      }
+    },
   },
 ]

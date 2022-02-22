@@ -1,10 +1,9 @@
 import { parseGitUrl } from 'src/utils'
-import RepoService from '../service/repo-service'
-import gitClone from '../lib/git/gitclone'
+import RepoService from '../../service/repo-service'
+import gitClone from '../../lib/git/gitclone'
 
 class RepoController {
   private service: RepoService = new RepoService()
-
   getRepo = async (ctx) => {
     const { github_repo_url } = ctx.query
     const { owner, repo } = parseGitUrl(github_repo_url as string)
@@ -15,10 +14,14 @@ class RepoController {
       data: data,
     }
   }
-  tempClone = async (ctx) => {
+  clone = async (ctx) => {
     const { github_repo_url } = ctx.query
-    const res = await gitClone(github_repo_url as string)
-    return res
+    const path = gitClone(github_repo_url as string)
+    ctx.body = {
+      code: 200,
+      msg: '初始化数据成功',
+      data: path,
+    }
   }
 }
 
