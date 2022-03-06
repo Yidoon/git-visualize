@@ -1,4 +1,4 @@
-import RepoService from '../../service/repo-service'
+import RepoService from '../../service/github/repo-service'
 import gitClone from '../../lib/git/gitclone'
 
 class RepoController {
