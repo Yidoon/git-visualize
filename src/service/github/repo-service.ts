@@ -15,9 +15,16 @@ export default class RepoService {
         owner: owner,
         repo: repo,
       })
-      console.log(res, 'ressss')
       dc.set(githubRepoUrl, res.data)
       return res
     }
+  }
+  getRepoContributor = async (githubRepoUrl: string) => {
+    const { owner, repo } = parseGitUrl(githubRepoUrl)
+    const res = await this.octokit.request('GET /repos/{owner}/{repo}/contributors', {
+      owner: owner,
+      repo: repo,
+    })
+    return res
   }
 }
