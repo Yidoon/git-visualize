@@ -21,10 +21,13 @@ export default class RepoService {
   }
   getRepoContributor = async (githubRepoUrl: string) => {
     const { owner, repo } = parseGitUrl(githubRepoUrl)
-    const res = await this.octokit.request('GET /repos/{owner}/{repo}/contributors', {
-      owner: owner,
-      repo: repo,
-    })
+    const res = await this.octokit.request(
+      'GET /repos/{owner}/{repo}/contributors?anon=1',
+      {
+        owner: owner,
+        repo: repo,
+      },
+    )
     return res
   }
 }
