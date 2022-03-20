@@ -20,6 +20,16 @@ export default [
   {
     path: '/repo/file/count',
     method: 'get',
-    action: repoController.getRepoContributor,
+    action: repoController.getFileCount,
+  },
+  {
+    path: '/repo/commit/count',
+    method: 'get',
+    action: repoController.getCommitCount,
+  },
+  {
+    path: '/repo/code/count',
+    method: 'get',
+    action: repoController.getCodeCount,
   },
 ]

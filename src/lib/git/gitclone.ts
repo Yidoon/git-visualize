@@ -6,7 +6,7 @@ const CURRENT_PATH = process.cwd()
 const TEP_DIR_NAME = 'tmp'
 const TMP_PATH = `${CURRENT_PATH}/${TEP_DIR_NAME}`
 
-async function gitClone(url: string) {
+const gitClone = async (url: string): Promise<string> => {
   return new Promise(async (resolve, reject): Promise<string> => {
     const { repo } = parseGitUrl(url)
     const isTmpPathExit = await isFolderExist(TMP_PATH)

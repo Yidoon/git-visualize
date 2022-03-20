@@ -1,6 +1,10 @@
 import { chdir } from 'process'
 import { exec } from 'child_process'
-import { CONTRIBUTOR_ANT_COMMIT_COUNT, TRACKED_FIlES_COUNT } from 'src/commands'
+import {
+  COMMIT_COUNT,
+  CONTRIBUTOR_ANT_COMMIT_COUNT,
+  TRACKED_FIlES_COUNT,
+} from 'src/commands'
 
 export default class RepoService {
   getRepoContributor = async (repoPath: string) => {
@@ -18,12 +22,31 @@ export default class RepoService {
       })
     })
   }
-  getFileCount = async () => {
+  getFileCount = async (path?: string) => {
+    if (path) {
+      chdir(path)
+    }
     return new Promise((resolve, reject) => {
       exec(TRACKED_FIlES_COUNT, {}, (err, stdout, stderr) => {
         if (err) return reject(err)
-        return resolve(stdout)
+        return resolve(Number(stdout.trim().split('\n')[0]))
       })
     })
+  }
+  getRepoCommitCount = async (path?: string) => {
+    if (path) {
+      chdir(path)
+    }
+    return new Promise((resolve, reject) => {
+      exec(COMMIT_COUNT, {}, (err, stdout, stderr) => {
+        if (err) return reject(err)
+        return resolve(Number(stdout.trim().split('\n')[0]))
+      })
+    })
+  }
+  getCodeCount = async (path?: string) => {
+    if (path) {
+      chdir(path)
+    }
   }
 }

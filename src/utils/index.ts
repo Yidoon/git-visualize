@@ -1,4 +1,7 @@
 import * as fs from 'fs'
+import { TMP_REPO_DIR } from 'src/config'
+import gitPull from 'src/lib/git/gitpull'
+import gitClone from '../lib/git/gitclone'
 
 export const parseGitUrl = (gitUrl: string) => {
   const _isSsh = gitUrl.indexOf('git@') > -1
@@ -35,4 +38,21 @@ export const isFolderExist = (folderPath: string): Promise<boolean> => {
       }
     })
   })
+}
+/**
+ * return repo path in local tmp folder,if not exist,clone it
+ * @param githubRepoUrl github repo url
+ * @returns
+ */
+export const getPathInTmp = async (githubRepoUrl: string) => {
+  const { repo } = parseGitUrl(githubRepoUrl)
+  let targetPath = `${TMP_REPO_DIR}/${repo}`
+  const isExit = await isFolderExist(targetPath)
+  if (isExit) {
+    await gitPull(targetPath)
+    return targetPath
+  } else {
+    targetPath = await gitClone(githubRepoUrl)
+  }
+  return targetPath
 }
