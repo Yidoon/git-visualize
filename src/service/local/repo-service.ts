@@ -4,6 +4,7 @@ import {
   COMMIT_COUNT,
   CONTRIBUTOR_ANT_COMMIT_COUNT,
   TRACKED_FIlES_COUNT,
+  CODE_LINES_COUNT,
 } from 'src/commands'
 
 export default class RepoService {
@@ -45,8 +46,17 @@ export default class RepoService {
     })
   }
   getCodeCount = async (path?: string) => {
-    if (path) {
-      chdir(path)
-    }
+    return new Promise((resolve, reject) => {
+      exec(CODE_LINES_COUNT, { cwd: path }, (err, stdout, stderr) => {
+        if (err) return reject(err)
+        const arr = stdout.trim().split(' ')
+        const data = {
+          total: +arr[0],
+          add: +arr[1],
+          subs: +arr[2],
+        }
+        return resolve(data)
+      })
+    })
   }
 }

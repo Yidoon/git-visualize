@@ -63,6 +63,12 @@ class RepoController {
   getCodeCount = async (ctx) => {
     const { github_repo_url } = ctx.query
     const path = await getPathInTmp(github_repo_url)
+    const codeLineCount = await this.localRepoService.getCodeCount(path)
+    ctx.body = {
+      code: 200,
+      msg: '',
+      data: codeLineCount,
+    }
   }
 }
 
