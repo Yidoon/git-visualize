@@ -3,6 +3,8 @@ import { default as LocalRepoService } from '../service/local/repo-service'
 import gitClone from '../lib/git/gitclone'
 import { chdir } from 'process'
 import { parseGitUrl, getPathInTmp } from 'src/utils'
+import { getEachDayDateUnix, getLasyNDayDateUnix } from 'src/utils'
+import dayjs = require('dayjs')
 
 class RepoController {
   private githubRepoService: GithubRepoService = new GithubRepoService()
@@ -68,6 +70,34 @@ class RepoController {
       code: 200,
       msg: '',
       data: codeLineCount,
+    }
+  }
+  getCommitTrend = async (ctx) => {
+    const { last_n_day, date_range_type, github_repo_url } = ctx.query
+    const path = await getPathInTmp(github_repo_url)
+    if (!last_n_day && !date_range_type) {
+      ctx.body = {
+        code: 20001,
+        msg: '缺少参数 last_n_day',
+        data: '',
+      }
+      return
+    }
+    let dateArr
+    if (last_n_day) {
+      dateArr = getLasyNDayDateUnix(last_n_day).map((d: number) => {
+        return dayjs.unix(d).format('YYYY-MM-DD')
+      })
+    } else {
+      dateArr = getEachDayDateUnix(date_range_type).map((d: number) => {
+        return dayjs.unix(d).format('YYYY-MM-DD')
+      })
+    }
+    const res = await this.localRepoService.getCommitTrend(dateArr, path)
+    ctx.body = {
+      code: 200,
+      msg: '',
+      data: res,
     }
   }
 }

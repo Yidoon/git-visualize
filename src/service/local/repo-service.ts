@@ -6,6 +6,8 @@ import {
   TRACKED_FIlES_COUNT,
   CODE_LINES_COUNT,
 } from 'src/commands'
+import dayjs = require('dayjs')
+import { execCommand } from 'src/utils'
 
 export default class RepoService {
   getRepoContributor = async (repoPath: string) => {
@@ -57,6 +59,37 @@ export default class RepoService {
         }
         return resolve(data)
       })
+    })
+  }
+  getCommitTrend = async (dateRange: string[], path?: string) => {
+    let cmdStr = 'git log --pretty=format:"%ad" --date=short'
+    return new Promise(async (resolve, reject) => {
+      const arr = []
+      let startDay, endDay, tempObj
+      for (let i = 0, len = dateRange.length; i < len; i++) {
+        startDay = dayjs(dateRange[i]).startOf('day').format('YYYY-MM-DD HH:mm')
+        endDay = dayjs(dateRange[i]).endOf('day').format('YYYY-MM-DD HH:mm')
+        cmdStr = `git log --oneline --after="${startDay}" --before="${endDay}" | wc -l`
+        const std = await execCommand(cmdStr, { cwd: path })
+        tempObj = {
+          date: dateRange[i],
+          count: Number((std as string).trim()),
+        }
+        arr.push(tempObj)
+        // exec(cmdStr, { cwd: path }, (err, stdout, stderr) => {
+        //   if (err) return reject(err)
+        //   console.log({
+        //     date: dateRange[i],
+        //     count: Number(stdout.trim()),
+        //   })
+
+        //   arr.push({
+        //     date: dateRange[i],
+        //     count: Number(stdout.trim()),
+        //   })
+        // })
+      }
+      return resolve(arr)
     })
   }
 }

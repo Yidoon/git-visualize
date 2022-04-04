@@ -32,4 +32,9 @@ export default [
     method: 'get',
     action: repoController.getCodeCount,
   },
+  {
+    path: '/stats/commit/trend',
+    method: 'get',
+    action: repoController.getCommitTrend,
+  },
 ]

@@ -2,6 +2,8 @@ import * as fs from 'fs'
 import { TMP_REPO_DIR } from 'src/config'
 import gitPull from 'src/lib/git/gitpull'
 import gitClone from '../lib/git/gitclone'
+import * as dayjs from 'dayjs'
+import { exec } from 'child_process'
 
 export const parseGitUrl = (gitUrl: string) => {
   const _isSsh = gitUrl.indexOf('git@') > -1
@@ -55,4 +57,42 @@ export const getPathInTmp = async (githubRepoUrl: string) => {
     targetPath = await gitClone(githubRepoUrl)
   }
   return targetPath
+}
+/**
+ * Return the time for each day of the week
+ */
+export const getEachDayDateUnix = (dateRangeType: 'week' | 'month'): number[] => {
+  const dateArr = []
+  const DATE_RANGE_COUNT = {
+    week: 7,
+    month: 30,
+  }
+  const startOfWeek = dayjs().startOf(dateRangeType)
+  for (let i = 1; i <= DATE_RANGE_COUNT[dateRangeType]; i++) {
+    dateArr.push(startOfWeek.add(i, 'day').unix())
+  }
+  return dateArr
+}
+/**
+ *
+ * @param n
+ * @returns the time for each day of last n day
+ */
+export const getLasyNDayDateUnix = (n: number): number[] => {
+  let dateArr = []
+  for (let i = n; i > 0; i--) {
+    dateArr.push(dayjs().subtract(i, 'day').unix())
+  }
+  return dateArr
+}
+
+export const execCommand = (cmd: string, options: any) => {
+  return new Promise((resolve, reject) => {
+    exec(cmd, options, (error, stdout, stderr) => {
+      if (error) {
+        reject(error)
+      }
+      resolve(stdout)
+    })
+  })
 }
