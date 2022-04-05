@@ -44,14 +44,21 @@ export const isFolderExist = (folderPath: string): Promise<boolean> => {
 /**
  * return repo path in local tmp folder,if not exist,clone it
  * @param githubRepoUrl github repo url
+ * @param pull git pull
  * @returns
  */
-export const getPathInTmp = async (githubRepoUrl: string) => {
+export const getPathInTmp = async (githubRepoUrl: string, pull = true) => {
   const { repo } = parseGitUrl(githubRepoUrl)
   let targetPath = `${TMP_REPO_DIR}/${repo}`
+  console.time('isFolderExist')
   const isExit = await isFolderExist(targetPath)
+  console.timeEnd('isFolderExist')
   if (isExit) {
-    await gitPull(targetPath)
+    console.time('git pull')
+    if (pull) {
+      await gitPull(targetPath)
+    }
+    console.timeEnd('git pull')
     return targetPath
   } else {
     targetPath = await gitClone(githubRepoUrl)
@@ -68,7 +75,7 @@ export const getEachDayDateUnix = (dateRangeType: 'week' | 'month'): number[] =>
     month: 30,
   }
   const startOfWeek = dayjs().startOf(dateRangeType)
-  for (let i = 1; i <= DATE_RANGE_COUNT[dateRangeType]; i++) {
+  for (let i = 0; i < DATE_RANGE_COUNT[dateRangeType]; i++) {
     dateArr.push(startOfWeek.add(i, 'day').unix())
   }
   return dateArr
@@ -80,13 +87,13 @@ export const getEachDayDateUnix = (dateRangeType: 'week' | 'month'): number[] =>
  */
 export const getLasyNDayDateUnix = (n: number): number[] => {
   let dateArr = []
-  for (let i = n; i > 0; i--) {
+  for (let i = n; i >= 0; i--) {
     dateArr.push(dayjs().subtract(i, 'day').unix())
   }
   return dateArr
 }
 
-export const execCommand = (cmd: string, options: any) => {
+export const execCommand = (cmd: string, options?: any) => {
   return new Promise((resolve, reject) => {
     exec(cmd, options, (error, stdout, stderr) => {
       if (error) {

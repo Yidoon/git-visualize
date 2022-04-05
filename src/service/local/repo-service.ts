@@ -61,35 +61,49 @@ export default class RepoService {
       })
     })
   }
+  // getCommitTrend = async (dateRange: string[], path?: string) => {
+  //   let cmdStr = 'git log --pretty=format:"%ad" --date=short'
+  //   return new Promise(async (resolve, reject) => {
+  //     const arr = []
+  //     let startDay, endDay, tempObj
+  //     for (let i = 0, len = dateRange.length; i < len; i++) {
+  //       startDay = dayjs(dateRange[i]).startOf('day').format('YYYY-MM-DD HH:mm')
+  //       endDay = dayjs(dateRange[i]).endOf('day').format('YYYY-MM-DD HH:mm')
+  //       cmdStr = `git log --oneline --after="${startDay}" --before="${endDay}" | wc -l`
+  //       const std = await execCommand(cmdStr, { cwd: path })
+  //       tempObj = {
+  //         date: dateRange[i],
+  //         count: Number((std as string).trim()),
+  //       }
+  //       arr.push(tempObj)
+  //     }
+  //     return resolve(arr)
+  //   })
+  // }
   getCommitTrend = async (dateRange: string[], path?: string) => {
-    let cmdStr = 'git log --pretty=format:"%ad" --date=short'
+    const startDate = `${dateRange[0]} 00:00`
+    const endDate = `${dateRange[dateRange.length - 1]} 23:59`
+    let cmdStr = `git log --pretty=format:"%cd" --date=format:'%Y-%m-%d' --after="${startDate}" --before="${endDate}"`
+    const dateMap = {}
     return new Promise(async (resolve, reject) => {
-      const arr = []
-      let startDay, endDay, tempObj
-      for (let i = 0, len = dateRange.length; i < len; i++) {
-        startDay = dayjs(dateRange[i]).startOf('day').format('YYYY-MM-DD HH:mm')
-        endDay = dayjs(dateRange[i]).endOf('day').format('YYYY-MM-DD HH:mm')
-        cmdStr = `git log --oneline --after="${startDay}" --before="${endDay}" | wc -l`
-        const std = await execCommand(cmdStr, { cwd: path })
-        tempObj = {
-          date: dateRange[i],
-          count: Number((std as string).trim()),
+      const stdout = await execCommand(cmdStr, { cwd: path })
+      const arr = (stdout as string).trim().split('\n')
+      for (let i = 0, len = arr.length; i < len; i++) {
+        const date = arr[i].trim()
+        if (!date) continue
+        if (dateMap[date]) {
+          dateMap[date] += 1
+        } else {
+          dateMap[date] = 1
         }
-        arr.push(tempObj)
-        // exec(cmdStr, { cwd: path }, (err, stdout, stderr) => {
-        //   if (err) return reject(err)
-        //   console.log({
-        //     date: dateRange[i],
-        //     count: Number(stdout.trim()),
-        //   })
-
-        //   arr.push({
-        //     date: dateRange[i],
-        //     count: Number(stdout.trim()),
-        //   })
-        // })
       }
-      return resolve(arr)
+      const dateCountArr = dateRange.map((d) => {
+        return {
+          date: d,
+          count: dateMap[d] || 0,
+        }
+      })
+      resolve(dateCountArr)
     })
   }
 }
