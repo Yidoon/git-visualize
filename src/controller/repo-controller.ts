@@ -74,9 +74,7 @@ class RepoController {
   }
   getCommitTrend = async (ctx) => {
     const { last_n_day, date_range_type, github_repo_url } = ctx.query
-    console.time('start')
     const path = await getPathInTmp(github_repo_url, false)
-    console.timeEnd('start')
     if (!last_n_day && !date_range_type) {
       ctx.body = {
         code: 20001,
@@ -85,7 +83,6 @@ class RepoController {
       }
       return
     }
-    console.time('getDate')
     let dateArr
     if (last_n_day) {
       dateArr = getLasyNDayDateUnix(last_n_day).map((d: number) => {
@@ -96,10 +93,17 @@ class RepoController {
         return dayjs.unix(d).format('YYYY-MM-DD')
       })
     }
-    console.timeEnd('getDate')
-    console.time('getCommitTrend2')
     const res = await this.localRepoService.getCommitTrend(dateArr, path)
-    console.timeEnd('getCommitTrend2')
+    ctx.body = {
+      code: 200,
+      msg: '',
+      data: res,
+    }
+  }
+  getCommitTrendByMonth = async (ctx) => {
+    const { year, github_repo_url } = ctx.query
+    const path = await getPathInTmp(github_repo_url, false)
+    const res = await this.localRepoService.getCommitTrendByMonth({ year: year }, path)
     ctx.body = {
       code: 200,
       msg: '',

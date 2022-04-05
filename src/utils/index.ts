@@ -92,7 +92,12 @@ export const getLasyNDayDateUnix = (n: number): number[] => {
   }
   return dateArr
 }
-
+/**
+ * wrap exec with promise
+ * @param cmd commant
+ * @param options exec options
+ * @returns
+ */
 export const execCommand = (cmd: string, options?: any) => {
   return new Promise((resolve, reject) => {
     exec(cmd, options, (error, stdout, stderr) => {
@@ -102,4 +107,18 @@ export const execCommand = (cmd: string, options?: any) => {
       resolve(stdout)
     })
   })
+}
+
+/**
+ * return the start and end date(unix) of spec yaer ,default return current year
+ * @param year year
+ */
+export const getStartEndDateOfYear = (year?: number) => {
+  const _year = year || dayjs().year()
+  const startDate = dayjs(`${_year}-01-01 00:00:00`).unix()
+  const endDate = dayjs(`${_year}-12-31 23:59:59`).unix()
+  return {
+    startDate,
+    endDate,
+  }
 }

@@ -37,4 +37,9 @@ export default [
     method: 'get',
     action: repoController.getCommitTrend,
   },
+  {
+    path: '/stats/commit/trend/month',
+    method: 'get',
+    action: repoController.getCommitTrendByMonth,
+  },
 ]

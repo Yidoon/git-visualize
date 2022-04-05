@@ -7,7 +7,7 @@ import {
   CODE_LINES_COUNT,
 } from 'src/commands'
 import dayjs = require('dayjs')
-import { execCommand } from 'src/utils'
+import { execCommand, getStartEndDateOfYear } from 'src/utils'
 
 export default class RepoService {
   getRepoContributor = async (repoPath: string) => {
@@ -104,6 +104,40 @@ export default class RepoService {
         }
       })
       resolve(dateCountArr)
+    })
+  }
+  getCommitTrendByMonth = async (
+    params: { year: number; pickedMonth?: number[] },
+    path?: string,
+  ) => {
+    const { year, pickedMonth } = params
+    const DEFAULT_MONTH_LIST = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    const months: number[] = pickedMonth ? pickedMonth : DEFAULT_MONTH_LIST
+    const { startDate, endDate } = getStartEndDateOfYear(year)
+    const cmdStr = `git log --pretty=format:"%cd" --date=format:'%m' --after="${startDate}" --before="${endDate}"`
+    const dateMap = {}
+    return new Promise(async (resolve, reject) => {
+      const stdout = await execCommand(cmdStr, { cwd: path })
+      const arr = (stdout as string).trim().split('\n')
+      for (let i = 0, len = arr.length; i < len; i++) {
+        const date = arr[i].trim()
+        if (!date) continue
+        if (dateMap[date]) {
+          dateMap[date] += 1
+        } else {
+          dateMap[date] = 1
+        }
+      }
+      const monthCountArr = months.map((m) => {
+        return {
+          mongth: m,
+          count: dateMap[m] || 0,
+        }
+      })
+      resolve({
+        year,
+        list: monthCountArr,
+      })
     })
   }
 }
