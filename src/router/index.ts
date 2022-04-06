@@ -42,4 +42,14 @@ export default [
     method: 'get',
     action: repoController.getCommitTrendByMonth,
   },
+  {
+    path: '/stats/commit/trend/contributors',
+    method: 'get',
+    action: repoController.getContributorsCommitsCount,
+  },
+  {
+    path: '/stats/contributors/trend/code',
+    method: 'get',
+    action: repoController.getContributorsCommitsCount,
+  },
 ]

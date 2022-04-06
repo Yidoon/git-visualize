@@ -110,6 +110,26 @@ class RepoController {
       data: res,
     }
   }
+  getContributorsCommitsCount = async (ctx) => {
+    const { github_repo_url } = ctx.query
+    const path = await getPathInTmp(github_repo_url, false)
+    const res = await this.localRepoService.getContributorsCommits(path)
+    ctx.body = {
+      code: 200,
+      msg: '',
+      data: res,
+    }
+  }
+  getContributorCodeLine = async (ctx) => {
+    const { github_repo_url } = ctx.query
+    const path = getPathInTmp(github_repo_url)
+    const res = await this.localRepoService.getContributorCodeLine(path)
+    ctx.body = {
+      code: 200,
+      msg: '',
+      data: '',
+    }
+  }
 }
 
 export default new RepoController()

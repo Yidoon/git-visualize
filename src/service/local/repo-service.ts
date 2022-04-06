@@ -9,6 +9,8 @@ import {
 import dayjs = require('dayjs')
 import { execCommand, getStartEndDateOfYear } from 'src/utils'
 
+const MockPath = '/Users/yidoon/Desktop/shifang/crm-fe'
+
 export default class RepoService {
   getRepoContributor = async (repoPath: string) => {
     const cmdStr = CONTRIBUTOR_ANT_COMMIT_COUNT
@@ -138,6 +140,33 @@ export default class RepoService {
         year,
         list: monthCountArr,
       })
+    })
+  }
+  getContributorsCommits = async (path?: string) => {
+    const cmdStr = CONTRIBUTOR_ANT_COMMIT_COUNT
+    return new Promise((resolve, reject) => {
+      exec(cmdStr, { cwd: MockPath }, (err, stdout, stderr) => {
+        if (err) {
+          reject(err)
+        } else {
+          const str = stdout.trim().replace(/(\t)/g, '_')
+          const arr = str.split('\n')
+          const res = arr.map((item) => {
+            const temp = item.trim().split('_')
+            return {
+              contributor: temp[1],
+              commit_count: Number(temp[0]),
+            }
+          })
+          resolve(res)
+        }
+      })
+    })
+  }
+  getContributorCodeLine = async (path?: string) => {
+    const contris = await this.getRepoContributor(path)
+    return new Promise(async (resolve, reject) => {
+      // const cmdStr = `git log --author="${author}" --no-merges --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added: %s, removed: %s, total: %s", add, subs, loc }'`
     })
   }
 }
