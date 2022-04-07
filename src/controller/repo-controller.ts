@@ -122,7 +122,7 @@ class RepoController {
   }
   getContributorCodeLine = async (ctx) => {
     const { github_repo_url } = ctx.query
-    const path = getPathInTmp(github_repo_url)
+    const path = await getPathInTmp(github_repo_url)
     const res = await this.localRepoService.getContributorCodeLine(path)
     ctx.body = {
       code: 200,

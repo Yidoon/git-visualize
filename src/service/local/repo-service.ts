@@ -163,10 +163,24 @@ export default class RepoService {
       })
     })
   }
+  getAuthorCommitCount = async (author: string, path?: string) => {
+    const cmdStr = `git log --author="${author}" --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added lines: %s, removed lines: %s, total lines: %s\n", add, subs, loc }' -
+    `
+  }
   getContributorCodeLine = async (path?: string) => {
-    const contris = await this.getRepoContributor(path)
+    const contributors = await this.getRepoContributor(path)
+    let resArr = []
+    let tempObj
     return new Promise(async (resolve, reject) => {
-      // const cmdStr = `git log --author="${author}" --no-merges --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added: %s, removed: %s, total: %s", add, subs, loc }'`
+      try {
+        for (let i = 0, len = (contributors as any).length; i < len; i++) {
+          tempObj = this.getAuthorCommitCount(contributors[i], path)
+          resArr.push(tempObj)
+        }
+        resolve(resArr)
+      } catch (error) {
+        reject(error)
+      }
     })
   }
 }
