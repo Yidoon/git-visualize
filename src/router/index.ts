@@ -48,8 +48,13 @@ export default [
     action: repoController.getContributorsCommitsCount,
   },
   {
-    path: '/stats/contributors/trend/code',
+    path: '/stats/contributors/trend/code/line',
     method: 'get',
-    action: repoController.getContributorsCommitsCount,
+    action: repoController.getContributorCodeLine,
+  },
+  {
+    path: '/rank/file/code_line',
+    method: 'get',
+    action: repoController.getRankFileRankOfCodeLine,
   },
 ]

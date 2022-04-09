@@ -124,10 +124,22 @@ class RepoController {
     const { github_repo_url } = ctx.query
     const path = await getPathInTmp(github_repo_url)
     const res = await this.localRepoService.getContributorCodeLine(path)
+    console.log(res, 'res')
+
     ctx.body = {
       code: 200,
       msg: '',
-      data: '',
+      data: res,
+    }
+  }
+  getRankFileRankOfCodeLine = async (ctx) => {
+    const { github_repo_url } = ctx.query
+    const path = await getPathInTmp(github_repo_url, false)
+    const res = await this.localRepoService.getRankFileRankOfCodeLine(path)
+    ctx.body = {
+      code: 200,
+      msg: '',
+      data: res,
     }
   }
 }

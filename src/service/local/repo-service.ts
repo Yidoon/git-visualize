@@ -8,6 +8,7 @@ import {
 } from 'src/commands'
 import dayjs = require('dayjs')
 import { execCommand, getStartEndDateOfYear } from 'src/utils'
+import { EXCLUD_RANK_FILE_CODE_LINE } from 'src/config'
 
 const MockPath = '/Users/yidoon/Desktop/shifang/crm-fe'
 
@@ -164,8 +165,21 @@ export default class RepoService {
     })
   }
   getAuthorCommitCount = async (author: string, path?: string) => {
-    const cmdStr = `git log --author="${author}" --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added lines: %s, removed lines: %s, total lines: %s\n", add, subs, loc }' -
+    const cmdStr = `git log --author="${author}" --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 - $2 } END { print loc,add,subs }'
     `
+    return new Promise((resolve, reject) => {
+      exec(cmdStr, { cwd: path }, (err, stdout, stderr) => {
+        if (err) return reject(err)
+        const arr = stdout.trim().split(' ')
+        const data = {
+          total: +arr[0],
+          add: +arr[1],
+          subs: +arr[2],
+          author,
+        }
+        return resolve(data)
+      })
+    })
   }
   getContributorCodeLine = async (path?: string) => {
     const contributors = await this.getRepoContributor(path)
@@ -174,13 +188,38 @@ export default class RepoService {
     return new Promise(async (resolve, reject) => {
       try {
         for (let i = 0, len = (contributors as any).length; i < len; i++) {
-          tempObj = this.getAuthorCommitCount(contributors[i], path)
+          tempObj = await this.getAuthorCommitCount(contributors[i], path)
           resArr.push(tempObj)
         }
         resolve(resArr)
       } catch (error) {
         reject(error)
       }
+    })
+  }
+  getRankFileRankOfCodeLine = async (path?: string) => {
+    const cmdStr = `git ls-files | xargs wc -l`
+    let tempArr
+    let resArr = []
+    return new Promise((resolve, reject) => {
+      exec(cmdStr, { cwd: MockPath }, (err, stdout, stderr) => {
+        if (err) return reject(err)
+        tempArr = stdout.trim().split('\n')
+        resArr = tempArr.map((item) => {
+          const temp = item.trim().split(' ')
+          return {
+            file: temp[1],
+            code_line: Number(temp[0]),
+          }
+        })
+        resArr = resArr.filter((item) => {
+          return item.file !== 'total' && !EXCLUD_RANK_FILE_CODE_LINE.includes(item.file)
+        })
+        resArr = resArr.sort((a, b) => {
+          return b.code_line - a.code_line
+        })
+        resolve(resArr)
+      })
     })
   }
 }
