@@ -198,7 +198,7 @@ export default class RepoService {
     })
   }
   getRankFileRankOfCodeLine = async (path?: string) => {
-    const cmdStr = `git ls-files | xargs wc -l`
+    const cmdStr = `git ls-files | xargs -I F wc -l`
     let tempArr
     let resArr = []
     return new Promise((resolve, reject) => {
@@ -207,6 +207,8 @@ export default class RepoService {
         tempArr = stdout.trim().split('\n')
         resArr = tempArr.map((item) => {
           const temp = item.trim().split(' ')
+          console.log(temp, 'tt')
+
           return {
             file: temp[1],
             code_line: Number(temp[0]),
