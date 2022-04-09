@@ -1,5 +1,9 @@
 import * as fs from 'fs'
-import { TMP_REPO_DIR } from 'src/config'
+import {
+  EXCLUD_RANK_FILE_NAME_CODE_LINE,
+  TMP_REPO_DIR,
+  EXCLUD_RANK_FILE_CODE_LINE_EXTENSION,
+} from 'src/config'
 import gitPull from 'src/lib/git/gitpull'
 import gitClone from '../lib/git/gitclone'
 import * as dayjs from 'dayjs'
@@ -121,4 +125,29 @@ export const getStartEndDateOfYear = (year?: number) => {
     startDate,
     endDate,
   }
+}
+
+export const filterExcludesFilesByName = (
+  source: string[],
+  filesName: string[],
+): string[] => {
+  return source.filter((fileName) => {
+    return !filesName.includes(fileName)
+  })
+}
+export const filterExcludesFilesByExtension = (
+  source: string[],
+  extensions: string[],
+): string[] => {
+  return source.filter((file) => {
+    return !extensions.includes(file.split('.').pop())
+  })
+}
+export const filterFiles = (source) => {
+  let resArr = filterExcludesFilesByExtension(
+    source,
+    EXCLUD_RANK_FILE_CODE_LINE_EXTENSION,
+  )
+  resArr = filterExcludesFilesByName(resArr, EXCLUD_RANK_FILE_NAME_CODE_LINE)
+  return resArr
 }

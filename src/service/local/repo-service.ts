@@ -7,8 +7,8 @@ import {
   CODE_LINES_COUNT,
 } from 'src/commands'
 import dayjs = require('dayjs')
-import { execCommand, getStartEndDateOfYear } from 'src/utils'
-import { EXCLUD_RANK_FILE_CODE_LINE } from 'src/config'
+import { execCommand, filterFiles, getStartEndDateOfYear } from 'src/utils'
+import { EXCLUD_RANK_FILE_NAME_CODE_LINE } from 'src/config'
 
 const MockPath = '/Users/yidoon/Desktop/shifang/crm-fe'
 
@@ -197,25 +197,48 @@ export default class RepoService {
       }
     })
   }
+  getTrackedFiles = async (path?: string) => {
+    const cmdStr = `git ls-files`
+    return new Promise((resolve, reject) => {
+      exec(cmdStr, { cwd: path }, (err, stdout, stderr) => {
+        if (err) {
+          reject(err)
+        } else {
+          const arr = (stdout as string).trim().split('\n')
+          const res = arr.map((item) => {
+            return item.trim()
+          })
+          resolve(res)
+        }
+      })
+    })
+  }
+
   getRankFileRankOfCodeLine = async (path?: string) => {
-    const cmdStr = `git ls-files | xargs -I F wc -l`
+    // const cmdStr = `git ls-files | xargs -0  wc -l`
+    const trackedFiles = await this.getTrackedFiles(path)
+    console.log(trackedFiles, 'trackedFiles')
+    const finalFiles = filterFiles(trackedFiles)
+    const cmdStr = `echo ${finalFiles.join(' ')} | xargs  wc -l`
+    console.log(cmdStr, 'cmdStr1')
+
     let tempArr
     let resArr = []
     return new Promise((resolve, reject) => {
-      exec(cmdStr, { cwd: MockPath }, (err, stdout, stderr) => {
+      exec(cmdStr, { cwd: path }, (err, stdout, stderr) => {
         if (err) return reject(err)
         tempArr = stdout.trim().split('\n')
         resArr = tempArr.map((item) => {
           const temp = item.trim().split(' ')
-          console.log(temp, 'tt')
-
           return {
             file: temp[1],
             code_line: Number(temp[0]),
           }
         })
         resArr = resArr.filter((item) => {
-          return item.file !== 'total' && !EXCLUD_RANK_FILE_CODE_LINE.includes(item.file)
+          return (
+            item.file !== 'total' && !EXCLUD_RANK_FILE_NAME_CODE_LINE.includes(item.file)
+          )
         })
         resArr = resArr.sort((a, b) => {
           return b.code_line - a.code_line
