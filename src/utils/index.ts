@@ -151,3 +151,6 @@ export const filterFiles = (source) => {
   resArr = filterExcludesFilesByName(resArr, EXCLUD_RANK_FILE_NAME_CODE_LINE)
   return resArr
 }
+export const getFilesExtensions = (fileName: string): string => {
+  return fileName.split('.').pop()
+}

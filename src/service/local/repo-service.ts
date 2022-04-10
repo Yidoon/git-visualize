@@ -7,7 +7,12 @@ import {
   CODE_LINES_COUNT,
 } from 'src/commands'
 import dayjs = require('dayjs')
-import { execCommand, filterFiles, getStartEndDateOfYear } from 'src/utils'
+import {
+  execCommand,
+  filterFiles,
+  getFilesExtensions,
+  getStartEndDateOfYear,
+} from 'src/utils'
 import { EXCLUD_RANK_FILE_NAME_CODE_LINE } from 'src/config'
 
 const MockPath = '/Users/yidoon/Desktop/shifang/crm-fe'
@@ -244,6 +249,34 @@ export default class RepoService {
           return b.code_line - a.code_line
         })
         resolve(resArr)
+      })
+    })
+  }
+  getFileCategoryChart = async (
+    path?: string,
+  ): Promise<{ extensions_map: any; total: number }> => {
+    const cmdStr = 'git ls-files'
+    return new Promise((resolve, reject) => {
+      let fileExtension
+      let resMap = {}
+      exec(cmdStr, { cwd: MockPath }, (err, stdout, stderr) => {
+        if (err) {
+          reject(err)
+        } else {
+          const arr = (stdout as string).trim().split('\n')
+          arr.forEach((item) => {
+            fileExtension = getFilesExtensions(item.trim())
+            if (resMap[fileExtension]) {
+              resMap[fileExtension] += 1
+            } else {
+              resMap[fileExtension] = 1
+            }
+          })
+          resolve({
+            extensions_map: resMap,
+            total: arr.length,
+          })
+        }
       })
     })
   }

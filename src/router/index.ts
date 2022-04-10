@@ -57,4 +57,9 @@ export default [
     method: 'get',
     action: repoController.getRankFileRankOfCodeLine,
   },
+  {
+    path: '/chart/file_category',
+    method: 'get',
+    action: repoController.getFileCategoryChart,
+  },
 ]

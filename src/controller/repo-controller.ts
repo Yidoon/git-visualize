@@ -142,6 +142,16 @@ class RepoController {
       data: res,
     }
   }
+  getFileCategoryChart = async (ctx) => {
+    const { github_repo_url } = ctx.query
+    const path = await getPathInTmp(github_repo_url, false)
+    const data = await this.localRepoService.getFileCategoryChart(path)
+    ctx.body = {
+      code: 200,
+      msg: '',
+      data: data,
+    }
+  }
 }
 
 export default new RepoController()
