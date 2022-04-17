@@ -8,6 +8,7 @@ import gitPull from 'src/lib/git/gitpull'
 import gitClone from '../lib/git/gitclone'
 import * as dayjs from 'dayjs'
 import { exec } from 'child_process'
+import * as nodejieba from 'nodejieba'
 
 export const parseGitUrl = (gitUrl: string) => {
   const _isSsh = gitUrl.indexOf('git@') > -1
@@ -153,4 +154,46 @@ export const filterFiles = (source) => {
 }
 export const getFilesExtensions = (fileName: string): string => {
   return fileName.split('.').pop()
+}
+
+export const splitCommitMsg = (msg) => {
+  // 特殊字符
+  const specialStringPattern =
+    /[~!@#$%^&*()_\-+=`\[\]{}|\\;:'",<.>\/?～！@¥（）——「」【】、；：‘“”’《》，。？]+/g
+  // 英文字符
+  const enPattern = /\w+/g
+  // 非英文字符
+  const notEnPattern = /[^a-zA-Z]+/g
+  const data = new Map()
+  msg = msg.replace(specialStringPattern, ' ')
+  // 对英文单词进行分割
+  const en = msg.replace(notEnPattern, ' ').trim().split(' ')
+  const notEn = msg.replace(enPattern, ' ').trim()
+  const word = nodejieba.cut(notEn)
+
+  en.forEach((item) => {
+    if (!item) return
+    data.set(item, data.get(item) + 1 || 1)
+  })
+  word.forEach((item) => {
+    if (!item.trim()) return
+
+    data.set(item, data.get(item) + 1 || 1)
+  })
+
+  return data
+}
+
+/**
+ * @description 合并两个关键词的对象
+ */
+export const mergeSplitData = (baseData, addData) => {
+  baseData = baseData || new Map()
+
+  for (let [key, value] of addData) {
+    const baseValue = baseData.get(key) || 0
+    baseData.set(key, baseValue + addData.get(key))
+  }
+
+  return baseData
 }

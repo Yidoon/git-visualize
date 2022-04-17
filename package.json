@@ -14,7 +14,8 @@
     "dotenv": "^8.2.0",
     "koa": "^2.7.0",
     "koa-bodyparser": "^4.2.1",
-    "koa-router": "^7.4.0"
+    "koa-router": "^7.4.0",
+    "nodejieba": "^2.6.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.1.0",

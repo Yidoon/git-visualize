@@ -14,6 +14,7 @@ import {
   getStartEndDateOfYear,
 } from 'src/utils'
 import { EXCLUD_RANK_FILE_NAME_CODE_LINE } from 'src/config'
+import { mergeSplitData, splitCommitMsg } from 'src/utils'
 
 const MockPath = '/Users/yidoon/Desktop/shifang/crm-fe'
 
@@ -279,5 +280,44 @@ export default class RepoService {
         }
       })
     })
+  }
+  getWordCloud = async (path?: string, contributor?: string) => {
+    const authorStr = contributor ? `--author="${contributor}"` : ''
+    const cmdStr = `git log --no-merges ${authorStr} --pretty='%an, %B<gitv />'`
+    const authorCommitMsg = {}
+    const result = {}
+    const pattern = /([^,]+)(.*)/
+    const res = await execCommand(cmdStr, { cwd: path })
+    const lineData = String(res).split('<gitv />')
+
+    lineData.forEach((line) => {
+      line = line.replace(/[\n\r\f]+/, '')
+      if (!line) return
+
+      const match = line.match(pattern)
+      const author = match[1]
+      const msg = match[2].slice(1)
+
+      authorCommitMsg[author] = mergeSplitData(
+        authorCommitMsg[author],
+        splitCommitMsg(msg),
+      )
+      authorCommitMsg['all'] = mergeSplitData(authorCommitMsg['all'], splitCommitMsg(msg))
+    })
+    const authorName = Object.keys(authorCommitMsg)
+    authorName.forEach((name) => {
+      const mapData = authorCommitMsg[name]
+      const sortArray = []
+
+      for (let [name, value] of mapData) {
+        sortArray.push({
+          name,
+          value,
+        })
+      }
+
+      result[name] = sortArray.sort((a, b) => b.value - a.value).slice(0, 200)
+    })
+    return result
   }
 }

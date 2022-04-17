@@ -152,6 +152,15 @@ class RepoController {
       data: data,
     }
   }
+  getWordCloud = async (ctx) => {
+    const { github_repo_url, contributor } = ctx.query
+    const data = await this.localRepoService.getWordCloud(github_repo_url, contributor)
+    ctx.body = {
+      code: 200,
+      msg: '',
+      data: data,
+    }
+  }
 }
 
 export default new RepoController()

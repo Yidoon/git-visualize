@@ -62,4 +62,9 @@ export default [
     method: 'get',
     action: repoController.getFileCategoryChart,
   },
+  {
+    path: '/word_cloud',
+    method: 'get',
+    action: repoController.getWordCloud,
+  },
 ]
