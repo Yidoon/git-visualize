@@ -6,10 +6,13 @@ class DataCache {
   private cachePath: string = DATA_CACHE_DIR
   constructor() {}
   get(key?: string) {
-    const jsonStr = fs.readFileSync(this.cachePath)
-    console.log(jsonStr.toString(), '======')
-    const jsonData = JSON.parse(jsonStr.toString() || DEFAULT_EMPTY_JSON_STR)
-    return key ? jsonData[key] : jsonData
+    try {
+      const jsonStr = fs.readFileSync(this.cachePath)
+      const jsonData = JSON.parse(jsonStr.toString() || DEFAULT_EMPTY_JSON_STR)
+      return key ? jsonData[key] : jsonData
+    } catch (err) {
+      console.log(err, '+++')
+    }
   }
   set(key, value) {
     const allData = this.get()

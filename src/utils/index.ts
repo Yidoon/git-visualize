@@ -197,3 +197,12 @@ export const mergeSplitData = (baseData, addData) => {
 
   return baseData
 }
+
+export const calcRepoAge = (birth: number) => {
+  const cur = dayjs().unix()
+  const past = dayjs(birth).unix()
+  const diffTime = cur - past
+  const year = Math.floor(diffTime / (86400 * 365))
+  const day = Math.floor(diffTime / 86400 - year * 365)
+  return `${year} year ${day} day`
+}

@@ -1,4 +1,5 @@
 import repoController from '../controller/repo-controller'
+import generalController from '../controller/general-controller'
 
 // export default [...githubRoutes, ...localRoutes]
 export default [
@@ -6,6 +7,11 @@ export default [
     path: '/repo/clone',
     method: 'post',
     action: repoController.clone,
+  },
+  {
+    path: '/general',
+    method: 'get',
+    action: generalController.getGeneralInfo,
   },
   {
     path: '/repo/info',

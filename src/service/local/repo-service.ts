@@ -19,10 +19,10 @@ import { mergeSplitData, splitCommitMsg } from 'src/utils'
 const MockPath = '/Users/yidoon/Desktop/shifang/crm-fe'
 
 export default class RepoService {
-  getRepoContributor = async (repoPath: string) => {
+  getRepoContributor = async (path: string): Promise<string[]> => {
     const cmdStr = CONTRIBUTOR_ANT_COMMIT_COUNT
     return new Promise((resolve, reject) => {
-      exec(cmdStr, {}, (err, stdout, stderr) => {
+      exec(cmdStr, { cwd: path }, (err, stdout, stderr) => {
         if (err) {
           reject(err)
         } else {
@@ -35,11 +35,8 @@ export default class RepoService {
     })
   }
   getFileCount = async (path?: string) => {
-    if (path) {
-      chdir(path)
-    }
     return new Promise((resolve, reject) => {
-      exec(TRACKED_FIlES_COUNT, {}, (err, stdout, stderr) => {
+      exec(TRACKED_FIlES_COUNT, { cwd: path }, (err, stdout, stderr) => {
         if (err) return reject(err)
         return resolve(Number(stdout.trim().split('\n')[0]))
       })
@@ -56,9 +53,15 @@ export default class RepoService {
       })
     })
   }
-  getCodeCount = async (path?: string) => {
+  getCodeCount = async (path?: string, params?: { before: string; after: string }) => {
+    const { after, before } = params || {}
+    let timeParams = ''
+    if (after && before) {
+      timeParams = `--before=${before} --after=${after}`
+    }
+    let cmdStr = `git log ${timeParams} --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 -$2 } END { print loc,add,subs }'`
     return new Promise((resolve, reject) => {
-      exec(CODE_LINES_COUNT, { cwd: path }, (err, stdout, stderr) => {
+      exec(cmdStr, { cwd: path }, (err, stdout, stderr) => {
         if (err) return reject(err)
         const arr = stdout.trim().split(' ')
         const data = {

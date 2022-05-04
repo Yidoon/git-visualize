@@ -4,7 +4,7 @@ import gitClone from '../lib/git/gitclone'
 import { chdir } from 'process'
 import { parseGitUrl, getPathInTmp } from 'src/utils'
 import { getEachDayDateUnix, getLasyNDayDateUnix } from 'src/utils'
-import dayjs = require('dayjs')
+import * as dayjs from 'dayjs'
 
 class RepoController {
   private githubRepoService: GithubRepoService = new GithubRepoService()
@@ -159,6 +159,18 @@ class RepoController {
       code: 200,
       msg: '',
       data: data,
+    }
+  }
+  getStartToEndYear = async (ctx) => {
+    const { github_repo_url } = ctx.query
+    const data = await this.githubRepoService.getRepo(github_repo_url)
+    const createAt = data.create_time
+    const startYear = dayjs().year(createAt).format('YYYY')
+    const currentYear = dayjs().format('YYYY')
+    ctx.body = {
+      code: 200,
+      msg: '',
+      data: [startYear, currentYear],
     }
   }
 }
