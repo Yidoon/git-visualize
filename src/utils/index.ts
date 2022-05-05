@@ -198,6 +198,10 @@ export const mergeSplitData = (baseData, addData) => {
   return baseData
 }
 
+/**
+ * @param birth the birth date of repo
+ * @returns
+ */
 export const calcRepoAge = (birth: number) => {
   const cur = dayjs().unix()
   const past = dayjs(birth).unix()
@@ -205,4 +209,16 @@ export const calcRepoAge = (birth: number) => {
   const year = Math.floor(diffTime / (86400 * 365))
   const day = Math.floor(diffTime / 86400 - year * 365)
   return `${year} year ${day} day`
+}
+
+export const getYearUntilNow = (start: number) => {
+  const startYear = dayjs(start).year()
+  console.log(startYear)
+
+  const curYear = dayjs().year()
+  const res = []
+  for (let i = startYear; i <= curYear; i++) {
+    res.push(dayjs().year(i).unix())
+  }
+  return res
 }

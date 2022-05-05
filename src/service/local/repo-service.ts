@@ -42,12 +42,19 @@ export default class RepoService {
       })
     })
   }
-  getRepoCommitCount = async (path?: string) => {
-    if (path) {
-      chdir(path)
+  getRepoCommitCount = async (
+    path?: string,
+    params?: { before: string; after: string },
+  ) => {
+    const { before, after } = params || {}
+    let paramsStr = ''
+    if (before && after) {
+      paramsStr += `--before=${before} --after=${after}`
     }
+    const cmdStr = `git log ${paramsStr} | wc -l`
+
     return new Promise((resolve, reject) => {
-      exec(COMMIT_COUNT, {}, (err, stdout, stderr) => {
+      exec(cmdStr, { cwd: path }, (err, stdout, stderr) => {
         if (err) return reject(err)
         return resolve(Number(stdout.trim().split('\n')[0]))
       })
@@ -226,10 +233,8 @@ export default class RepoService {
   getRankFileRankOfCodeLine = async (path?: string) => {
     // const cmdStr = `git ls-files | xargs -0  wc -l`
     const trackedFiles = await this.getTrackedFiles(path)
-    console.log(trackedFiles, 'trackedFiles')
     const finalFiles = filterFiles(trackedFiles)
     const cmdStr = `echo ${finalFiles.join(' ')} | xargs  wc -l`
-    console.log(cmdStr, 'cmdStr1')
 
     let tempArr
     let resArr = []

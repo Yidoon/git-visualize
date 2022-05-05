@@ -1,5 +1,6 @@
 import repoController from '../controller/repo-controller'
 import generalController from '../controller/general-controller'
+import commitController from '../controller/commit-controller'
 
 // export default [...githubRoutes, ...localRoutes]
 export default [
@@ -12,6 +13,16 @@ export default [
     path: '/general',
     method: 'get',
     action: generalController.getGeneralInfo,
+  },
+  {
+    path: '/commit/until_year',
+    method: 'get',
+    action: commitController.getStartToNowCommitCount,
+  },
+  {
+    path: '/commit/year',
+    method: 'get',
+    action: commitController.getSpecYearCommitCount,
   },
   {
     path: '/repo/info',
