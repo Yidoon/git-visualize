@@ -1,10 +1,6 @@
-import * as dotenv from 'dotenv'
-
-dotenv.config()
-
-const { PORT, DATA_CACHE_DIR, TMP_REPO_DIR } = process.env
-
-const EXCLUD_RANK_FILE_NAME_CODE_LINE = [
+// server port
+export const PORT = 8888
+export const EXCLUD_RANK_FILE_NAME_CODE_LINE = [
   'package-lock.json',
   'package.json',
   'yarn.lock',
@@ -20,13 +16,7 @@ const EXCLUD_RANK_FILE_NAME_CODE_LINE = [
   'ecosystem.config.js',
   '.prettierrc.js',
 ]
-
-const EXCLUD_RANK_FILE_CODE_LINE_EXTENSION = ['md', 'json']
-
-export {
-  EXCLUD_RANK_FILE_NAME_CODE_LINE,
-  PORT,
-  DATA_CACHE_DIR,
-  TMP_REPO_DIR,
-  EXCLUD_RANK_FILE_CODE_LINE_EXTENSION,
-}
+export const EXCLUD_RANK_FILE_CODE_LINE_EXTENSION = ['md', 'json']
+export const TMP_REPO_DIR = 'tmp'
+export const DATA_CACHE_DIR = 'data/cache.json'
+export const CACHE_DIR = 'cache'

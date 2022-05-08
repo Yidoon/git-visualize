@@ -8,18 +8,23 @@ const TMP_PATH = `${CURRENT_PATH}/${TEP_DIR_NAME}`
 
 const gitClone = async (url: string): Promise<string> => {
   return new Promise(async (resolve, reject): Promise<string> => {
-    const { repo } = parseGitUrl(url)
+    const { uname } = parseGitUrl(url)
     const isTmpPathExit = await isFolderExist(TMP_PATH)
     if (!isTmpPathExit) {
       fs.mkdirSync(TMP_PATH)
     }
-    let targetPath = `${TMP_PATH}/${repo}`
+    let targetPath = `${TMP_PATH}/${uname}`
+
     const isTargetPathExit = await isFolderExist(targetPath)
+
     if (isTargetPathExit) {
       resolve(targetPath)
       return
     }
-    const child = spawn('git', ['clone', url, '--progress'], { cwd: TMP_PATH })
+
+    const child = spawn('git', [`clone`, `${url}`, `${uname}`, '--progress'], {
+      cwd: TMP_PATH,
+    })
     child.stdout.pipe(process.stdout)
     child.stderr.pipe(process.stderr)
     child.on('exit', (code) => {
@@ -29,7 +34,6 @@ const gitClone = async (url: string): Promise<string> => {
         resolve(targetPath)
       } else {
         console.log(`\n clone repository failder. error code is ${code}`)
-        // 删除临时新建的文件夹
         reject()
       }
     })

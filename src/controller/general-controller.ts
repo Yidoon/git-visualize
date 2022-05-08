@@ -12,6 +12,7 @@ class GeneralController {
     try {
       const data = await this.githubRepoService.getRepo(github_repo_url)
       const path = await getPathInTmp(github_repo_url)
+      // TODO: too slow
       const codeCount = await this.localRepoService.getCodeCount(path)
       const fileCount = await this.localRepoService.getFileCount(path)
       const contributors = await this.localRepoService.getRepoContributor(path)
@@ -35,7 +36,7 @@ class GeneralController {
         data: returnData,
       }
     } catch (err) {
-      console.log(err, 'errrr')
+      console.log(err, 'getGeneralInfo-error')
     }
   }
 }

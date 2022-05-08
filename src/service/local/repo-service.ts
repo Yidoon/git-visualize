@@ -1,11 +1,5 @@
-import { chdir } from 'process'
 import { exec } from 'child_process'
-import {
-  COMMIT_COUNT,
-  CONTRIBUTOR_ANT_COMMIT_COUNT,
-  TRACKED_FIlES_COUNT,
-  CODE_LINES_COUNT,
-} from 'src/commands'
+import { CONTRIBUTOR_ANT_COMMIT_COUNT, TRACKED_FIlES_COUNT } from 'src/commands'
 import dayjs = require('dayjs')
 import {
   execCommand,
@@ -66,10 +60,13 @@ export default class RepoService {
     if (after && before) {
       timeParams = `--before=${before} --after=${after}`
     }
+
     let cmdStr = `git log ${timeParams} --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 -$2 } END { print loc,add,subs }'`
     return new Promise((resolve, reject) => {
       exec(cmdStr, { cwd: path }, (err, stdout, stderr) => {
-        if (err) return reject(err)
+        if (err) {
+          return reject(err)
+        }
         const arr = stdout.trim().split(' ')
         const data = {
           total: +arr[0],

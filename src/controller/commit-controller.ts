@@ -51,7 +51,6 @@ class CommitController {
     }
     const path = await getPathInTmp(github_repo_url)
     const startMonth = dayjs().year(year).startOf('year').format('YYYY-MM-DD')
-    console.log(startMonth, 'startMonth')
 
     let params: { after: string; before: string } = { after: '', before: '' }
     let temp

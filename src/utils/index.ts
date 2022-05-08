@@ -29,6 +29,7 @@ export const parseGitUrl = (gitUrl: string) => {
     owner: owner,
     protocol: urlType,
     url: gitUrl,
+    uname: `${owner}@${repo}`,
   }
 }
 
@@ -52,13 +53,13 @@ export const isFolderExist = (folderPath: string): Promise<boolean> => {
  * @param pull git pull
  * @returns
  */
-export const getPathInTmp = async (githubRepoUrl: string, pull = true) => {
-  const { repo } = parseGitUrl(githubRepoUrl)
-  let targetPath = `${TMP_REPO_DIR}/${repo}`
-  console.time('isFolderExist')
+export const getPathInTmp = async (githubRepoUrl: string, pull = false) => {
+  const { uname } = parseGitUrl(githubRepoUrl)
+  let targetPath = `${TMP_REPO_DIR}/${uname}`
   const isExit = await isFolderExist(targetPath)
-  console.timeEnd('isFolderExist')
+
   if (isExit) {
+    // TODO: PULL timing
     console.time('git pull')
     if (pull) {
       await gitPull(targetPath)
@@ -69,6 +70,17 @@ export const getPathInTmp = async (githubRepoUrl: string, pull = true) => {
     targetPath = await gitClone(githubRepoUrl)
   }
   return targetPath
+}
+export const getRepoPlatform = (url: string) => {
+  const isGithub = url.indexOf('github.com') > -1
+  const isGitlab = url.indexOf('gitlab') > -1
+  if (isGithub) {
+    return 'github'
+  }
+  if (isGitlab) {
+    return 'gitlab'
+  }
+  return ''
 }
 /**
  * Return the time for each day of the week
@@ -213,7 +225,6 @@ export const calcRepoAge = (birth: number) => {
 
 export const getYearUntilNow = (start: number) => {
   const startYear = dayjs(start).year()
-  console.log(startYear)
 
   const curYear = dayjs().year()
   const res = []

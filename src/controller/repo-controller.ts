@@ -2,7 +2,7 @@ import { default as GithubRepoService } from '../service/github/repo-service'
 import { default as LocalRepoService } from '../service/local/repo-service'
 import gitClone from '../lib/git/gitclone'
 import { chdir } from 'process'
-import { parseGitUrl, getPathInTmp } from 'src/utils'
+import { getPathInTmp } from 'src/utils'
 import { getEachDayDateUnix, getLasyNDayDateUnix } from 'src/utils'
 import * as dayjs from 'dayjs'
 
@@ -124,7 +124,6 @@ class RepoController {
     const { github_repo_url } = ctx.query
     const path = await getPathInTmp(github_repo_url)
     const res = await this.localRepoService.getContributorCodeLine(path)
-    console.log(res, 'res')
 
     ctx.body = {
       code: 200,
