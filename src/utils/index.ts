@@ -47,6 +47,12 @@ export const isFolderExist = (folderPath: string): Promise<boolean> => {
     })
   })
 }
+export const isFileExist = (filePath: string): boolean => {
+  if (!filePath) {
+    return false
+  }
+  return fs.existsSync(filePath)
+}
 /**
  * return repo path in local tmp folder,if not exist,clone it
  * @param githubRepoUrl github repo url

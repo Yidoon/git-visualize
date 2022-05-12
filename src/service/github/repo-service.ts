@@ -1,6 +1,7 @@
 import { Octokit } from '@octokit/core'
 import { parseGitUrl } from 'src/utils'
 import dc from 'src/lib/cache'
+import apiDataDc from 'src/lib/cache/api-data-dc'
 import dayjs = require('dayjs')
 
 export default class RepoService {
@@ -13,21 +14,17 @@ export default class RepoService {
    */
   getRepo = async (githubRepoUrl: string, cache = true) => {
     const { owner, repo } = parseGitUrl(githubRepoUrl)
-    const cacheData = dc.get(githubRepoUrl)
-    const isCacheNeedUpdate = dc.isCacheNeedUpdate(githubRepoUrl)
-    if (cacheData && cache && !isCacheNeedUpdate) {
+    const cacheData = apiDataDc.get(githubRepoUrl, '/repos/{owner}/{repo}')
+
+    if (cacheData && cache) {
       return cacheData.data
     } else {
       const res = await this.octokit.request('GET /repos/{owner}/{repo}', {
         owner: owner,
         repo: repo,
       })
-      const data = {
-        data: res.data,
-        _latest_modified: dayjs().unix(),
-      }
-      dc.set(githubRepoUrl, data)
-      return res
+      apiDataDc.set(githubRepoUrl, '/repos/{owner}/{repo}', res.data)
+      return res.data
     }
   }
   getRepoContributor = async (githubRepoUrl: string) => {
