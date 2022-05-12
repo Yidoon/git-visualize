@@ -2,7 +2,7 @@ import { parseGitUrl, getRepoPlatform, isFileExist } from 'src/utils'
 import { CACHE_DIR } from 'src/config'
 import * as fs from 'fs'
 import * as path from 'path'
-import dayjs = require('dayjs')
+import * as dayjs from 'dayjs'
 
 const DEFAULT_EMPTY_JSON_STR = JSON.stringify({})
 const DEFAULT_INTERVAL_TO_REFRESH_CACHE = 60 * 1000 * 60 * 24

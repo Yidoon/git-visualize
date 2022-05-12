@@ -9,6 +9,7 @@ import gitClone from '../lib/git/gitclone'
 import * as dayjs from 'dayjs'
 import { exec } from 'child_process'
 import * as nodejieba from 'nodejieba'
+import latestPull from 'src/lib/cache/latest-pull'
 
 export const parseGitUrl = (gitUrl: string) => {
   const _isSsh = gitUrl.indexOf('git@') > -1
@@ -59,16 +60,17 @@ export const isFileExist = (filePath: string): boolean => {
  * @param pull git pull
  * @returns
  */
-export const getPathInTmp = async (githubRepoUrl: string, pull = false) => {
+export const getPathInTmp = async (githubRepoUrl: string, pull = true) => {
   const { uname } = parseGitUrl(githubRepoUrl)
   let targetPath = `${TMP_REPO_DIR}/${uname}`
   const isExit = await isFolderExist(targetPath)
-
+  const latestPullTime = latestPull.get(githubRepoUrl)?.updated_time
+  const hasPassOneDay = latestPullTime && dayjs().unix() - latestPullTime > 60 * 60 * 24
   if (isExit) {
-    // TODO: PULL timing
     console.time('git pull')
-    if (pull) {
+    if (pull && hasPassOneDay) {
       await gitPull(targetPath)
+      latestPull.refresh(githubRepoUrl)
     }
     console.timeEnd('git pull')
     return targetPath

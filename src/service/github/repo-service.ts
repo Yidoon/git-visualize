@@ -1,7 +1,7 @@
 import { Octokit } from '@octokit/core'
 import { parseGitUrl } from 'src/utils'
 import dc from 'src/lib/cache'
-import apiDataDc from 'src/lib/cache/api-data-dc'
+import apiDataDc from 'src/lib/cache/api-data'
 import dayjs = require('dayjs')
 
 export default class RepoService {
