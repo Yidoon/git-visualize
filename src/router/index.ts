@@ -1,6 +1,8 @@
 import repoController from '../controller/repo-controller'
 import generalController from '../controller/general-controller'
 import commitController from '../controller/commit-controller'
+import fileController from '../controller/file-controller'
+import contributorController from '../controller/contributor-controller'
 
 // export default [...githubRoutes, ...localRoutes]
 export default [
@@ -24,6 +26,18 @@ export default [
     method: 'get',
     action: commitController.getSpecYearCommitCount,
   },
+  {
+    path: '/file/catrgory',
+    method: 'get',
+    action: fileController.getFileCategory,
+  },
+  // Lists contributors to the specified repository and sorts them by the number of commits per contributor in descending order.
+  {
+    path: '/contributor',
+    method: 'get',
+    action: contributorController.getContributors,
+  },
+  // need to rewrite below ====
   {
     path: '/repo/info',
     method: 'get',

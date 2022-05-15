@@ -1,7 +1,6 @@
 import { default as GithubRepoService } from '../service/github/repo-service'
 import { default as LocalRepoService } from '../service/local/repo-service'
 import gitClone from '../lib/git/gitclone'
-import { chdir } from 'process'
 import { getPathInTmp } from 'src/utils'
 import { getEachDayDateUnix, getLasyNDayDateUnix } from 'src/utils'
 import * as dayjs from 'dayjs'
@@ -38,7 +37,7 @@ class RepoController {
     // const data = await this.localRepoService.getRepoContributor(localRepoPath)
     ctx.body = {
       code: 200,
-      msg: '初始化数据成功',
+      msg: '',
       data: data,
     }
   }
