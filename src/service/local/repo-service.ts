@@ -38,14 +38,19 @@ export default class RepoService {
   }
   getRepoCommitCount = async (
     path?: string,
-    params?: { before: string; after: string },
+    params?: { before: string; after: string; contributor?: string },
   ) => {
-    const { before, after } = params || {}
+    const { before, after, contributor } = params || {}
     let paramsStr = ''
     if (before && after) {
-      paramsStr += `--before=${before} --after=${after}`
+      paramsStr += `--before=${before} --after=${after} `
     }
-    const cmdStr = `git log ${paramsStr} | wc -l`
+    if (contributor) {
+      paramsStr += `--author=${contributor}`
+    }
+    const cmdStr = `git log ${paramsStr} --no-merges | wc -l`
+
+    console.log(cmdStr)
 
     return new Promise((resolve, reject) => {
       exec(cmdStr, { cwd: path }, (err, stdout, stderr) => {

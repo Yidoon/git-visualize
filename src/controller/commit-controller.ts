@@ -1,7 +1,7 @@
 import { default as LocalRepoService } from '../service/local/repo-service'
 import { default as GithubRepoService } from '../service/github/repo-service'
 import { getPathInTmp, getYearUntilNow } from 'src/utils'
-import dayjs = require('dayjs')
+import * as dayjs from 'dayjs'
 
 class CommitController {
   private localRepoService: LocalRepoService = new LocalRepoService()

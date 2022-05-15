@@ -231,13 +231,29 @@ export const calcRepoAge = (birth: number) => {
   return `${year} year ${day} day`
 }
 
-export const getYearUntilNow = (start: number) => {
+export const getYearUntilNow = (start: number): number[] => {
   const startYear = dayjs(start).year()
 
   const curYear = dayjs().year()
   const res = []
   for (let i = startYear; i <= curYear; i++) {
     res.push(dayjs().year(i).unix())
+  }
+  return res
+}
+
+/**
+ * return 12 month unix of spec year
+ * @param year
+ */
+export const getMonthsOfYear = (year: number) => {
+  const _year = year || dayjs().year()
+  console.log(_year)
+
+  const startYearUnix = dayjs().year(_year).startOf('year')
+  const res = []
+  for (let i = 0, len = 12; i < len; i++) {
+    res.push(dayjs(startYearUnix).add(i, 'month').unix())
   }
   return res
 }

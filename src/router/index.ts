@@ -37,7 +37,18 @@ export default [
     method: 'get',
     action: contributorController.getContributors,
   },
-  // need to rewrite below ====
+  // list contributor commit count in each year
+  {
+    path: '/contributor/each_year_commit',
+    method: 'get',
+    action: contributorController.getContributorEachYearCommit,
+  },
+  {
+    path: '/contributor/year_commit',
+    method: 'get',
+    action: contributorController.getYearCommit,
+  },
+  //------ need to rewrite below ----------
   {
     path: '/repo/info',
     method: 'get',
