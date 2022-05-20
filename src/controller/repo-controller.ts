@@ -29,12 +29,15 @@ class RepoController {
   }
   getRepoContributor = async (ctx) => {
     const { github_repo_url } = ctx.query
+    const path = await getPathInTmp(github_repo_url)
     // github: github api
-    const data = await this.githubRepoService.getRepoContributor(github_repo_url)
+    // const data = await this.githubRepoService.getRepoContributor(github_repo_url)
     // TODO:
     // local: need to spec path of repo in local
-    // chdir(localRepoPath)
-    // const data = await this.localRepoService.getRepoContributor(localRepoPath)
+    const data = await this.localRepoService.getRepoContributor(path, {
+      top: 20,
+      withCommitCount: true,
+    })
     ctx.body = {
       code: 200,
       msg: '',

@@ -72,6 +72,42 @@ class ContributorController {
       code: 200,
     }
   }
+  getTimezone = async (ctx) => {
+    const { github_repo_url } = ctx.query
+    const path = await getPathInTmp(github_repo_url)
+    const res = await this.localRepoService.getTimezone(path)
+    ctx.body = {
+      msg: '',
+      data: res,
+      code: 200,
+    }
+  }
+  getCodeCount = async (ctx) => {
+    const { github_repo_url } = ctx.query
+    const path = await getPathInTmp(github_repo_url)
+    const arr: any = await this.localRepoService.getRepoContributor(path, {
+      top: 5,
+      withCommitCount: true,
+    })
+
+    const contributors = arr.map((item) => item.contributor)
+    const data = {}
+    let temp
+    let c
+
+    for (let i = 0, len = contributors.length; i < len; i++) {
+      c = contributors[i]
+      temp = await this.localRepoService.getCodeCount(path, {
+        contributor: c,
+      })
+      data[c] = temp
+    }
+    ctx.body = {
+      msg: '',
+      data: data,
+      code: 200,
+    }
+  }
 }
 
 export default new ContributorController()

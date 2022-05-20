@@ -13,16 +13,45 @@ import { mergeSplitData, splitCommitMsg } from 'src/utils'
 const MockPath = '/Users/yidoon/Desktop/shifang/crm-fe'
 
 export default class RepoService {
-  getRepoContributor = async (path: string): Promise<string[]> => {
+  getRepoContributor = async (
+    path: string,
+    opt?: { top?: number; withCommitCount?: boolean; sortBy?: 'asc' | 'desc' },
+  ): Promise<string[] | { contributor: string; count: number }[]> => {
     const cmdStr = CONTRIBUTOR_ANT_COMMIT_COUNT
+    let res = []
+    const { top, withCommitCount = false, sortBy = 'desc' } = opt
     return new Promise((resolve, reject) => {
       exec(cmdStr, { cwd: path }, (err, stdout, stderr) => {
         if (err) {
           reject(err)
         } else {
-          const str = stdout.trim().replace(/(\d+\t)/g, '')
-          const arr = str.split('\n')
-          const res = arr.map((item) => item.trim())
+          // const str = stdout.trim().replace(/(\d+\t)/g, '')
+          const arr = String(stdout).trim().replace(/(\t)/g, ' ').split('\n')
+          let t
+          let data = arr.map((item) => {
+            t = item.trim().split(' ')
+            return {
+              contributor: t[1],
+              count: t[0],
+            }
+          })
+          data = data.sort((a, b) => {
+            if (sortBy === 'desc') {
+              return b.count - a.count
+            } else {
+              return a.count - b.count
+            }
+          })
+          if (top) {
+            data = data.slice(0, top)
+          }
+          if (!withCommitCount) {
+            res = data.map((item) => {
+              return item.contributor
+            })
+          } else {
+            res = data
+          }
           resolve(res)
         }
       })
@@ -59,14 +88,21 @@ export default class RepoService {
       })
     })
   }
-  getCodeCount = async (path?: string, params?: { before: string; after: string }) => {
-    const { after, before } = params || {}
-    let timeParams = ''
+  getCodeCount = async (
+    path?: string,
+    params?: { before?: string; after?: string; contributor?: string },
+  ) => {
+    const { after, before, contributor } = params || {}
+    let optParams = ''
     if (after && before) {
-      timeParams = `--before=${before} --after=${after}`
+      optParams = `--before=${before} --after=${after}`
+    }
+    if (contributor) {
+      optParams += `--author="${contributor}"`
     }
 
-    let cmdStr = `git log ${timeParams} --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 -$2 } END { print loc,add,subs }'`
+    let cmdStr = `git log ${optParams} --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 -$2 } END { print loc,add,subs }'`
+    console.log(cmdStr)
     return new Promise((resolve, reject) => {
       exec(cmdStr, { cwd: path }, (err, stdout, stderr) => {
         if (err) {
@@ -200,7 +236,7 @@ export default class RepoService {
     })
   }
   getContributorCodeLine = async (path?: string) => {
-    const contributors = await this.getRepoContributor(path)
+    const contributors: any = await this.getRepoContributor(path)
     let resArr = []
     let tempObj
     return new Promise(async (resolve, reject) => {
@@ -329,5 +365,18 @@ export default class RepoService {
       result[name] = sortArray.sort((a, b) => b.value - a.value).slice(0, 200)
     })
     return result
+  }
+  getTimezone = async (path?: string) => {
+    const cmdStr = 'git log --pretty=format:"%ad" --date=raw'
+    const res = await execCommand(cmdStr, { cwd: path })
+    const arr = String(res).split('\n')
+    const data = []
+    arr.forEach((timeStr) => {
+      let t = timeStr.split(' ')[1]
+      if (!data.includes(t)) {
+        data.push(t)
+      }
+    })
+    return data
   }
 }

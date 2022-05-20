@@ -48,6 +48,16 @@ export default [
     method: 'get',
     action: contributorController.getYearCommit,
   },
+  {
+    path: '/contributor/timezone',
+    method: 'get',
+    action: contributorController.getTimezone,
+  },
+  {
+    path: '/contributor/code_count',
+    method: 'get',
+    action: contributorController.getCodeCount,
+  },
   //------ need to rewrite below ----------
   {
     path: '/repo/info',
