@@ -19,7 +19,9 @@ export default class RepoService {
   ): Promise<string[] | { contributor: string; count: number }[]> => {
     const cmdStr = CONTRIBUTOR_ANT_COMMIT_COUNT
     let res = []
-    const { top, withCommitCount = false, sortBy = 'desc' } = opt
+    const { top = 20, withCommitCount = false, sortBy = 'desc' } = opt || {}
+    console.log(top, 'top')
+
     return new Promise((resolve, reject) => {
       exec(cmdStr, { cwd: path }, (err, stdout, stderr) => {
         if (err) {

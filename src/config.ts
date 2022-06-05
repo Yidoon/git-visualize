@@ -1,5 +1,5 @@
 // server port
-export const PORT = 8888
+export const PORT = 8007
 export const EXCLUD_RANK_FILE_NAME_CODE_LINE = [
   'package-lock.json',
   'package.json',
