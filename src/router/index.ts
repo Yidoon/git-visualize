@@ -3,9 +3,15 @@ import generalController from '../controller/general-controller'
 import commitController from '../controller/commit-controller'
 import fileController from '../controller/file-controller'
 import contributorController from '../controller/contributor-controller'
+import commonController from '../controller/common-controller'
 
 // export default [...githubRoutes, ...localRoutes]
 export default [
+  {
+    path: '/common/per_year',
+    method: 'get',
+    action: commonController.getPerYear,
+  },
   {
     path: '/repo/clone',
     method: 'post',
