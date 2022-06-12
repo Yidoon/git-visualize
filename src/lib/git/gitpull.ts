@@ -1,9 +1,11 @@
 import { exec } from 'child_process'
+import gitConfig from './gitconfig'
 
 const gitPull = async (path: string) => {
-  const cmdStr = `cd ${path} && git pull`
+  const cmdStr = `git pull`
+  await gitConfig(path)
   return new Promise((resolve, reject) => {
-    exec(cmdStr, {}, (err) => {
+    exec(cmdStr, { cwd: path }, (err) => {
       if (err) {
         reject(err)
       } else {

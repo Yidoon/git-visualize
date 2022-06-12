@@ -7,13 +7,53 @@ class ContributorController {
   private githubRepoService: GithubRepoService = new GithubRepoService()
   private localRepoService: LocalRepoService = new LocalRepoService()
 
-  getContributors = async (ctx) => {
+  getContributorsGithub = async (ctx) => {
     const { github_repo_url } = ctx.query
     const data = await this.githubRepoService.getRepoContributor(github_repo_url)
     ctx.body = {
       code: 200,
       msg: '',
       data: data,
+    }
+  }
+  getContributors = async (ctx) => {
+    const { github_repo_url, n } = ctx.query
+
+    const path = await getPathInTmp(github_repo_url)
+    const data = await this.localRepoService.getRepoContributor(path, {
+      withCommitCount: false,
+    })
+    ctx.body = {
+      code: 200,
+      msg: '',
+      data: data,
+    }
+  }
+  getContributorCommitCount = async (ctx) => {
+    const { github_repo_url, contributor, year } = ctx.query
+    const path = await getPathInTmp(github_repo_url)
+    const repoData = await this.githubRepoService.getRepo(github_repo_url)
+    const years = getYearUntilNow(repoData.created_at)
+    const res = []
+    let timeParams: { after: string; before: string } = { after: '', before: '' }
+    let temp
+    for (let i = 0; i < years.length; i++) {
+      timeParams.after = dayjs.unix(years[i]).startOf('year').format('YYYY-MM-DD')
+      timeParams.before = dayjs.unix(years[i]).endOf('year').format('YYYY-MM-DD')
+
+      temp = await this.localRepoService.getRepoCommitCount(path, {
+        contributor: contributor,
+        ...timeParams,
+      })
+      res.push({
+        date: dayjs.unix(years[i]).startOf('year').format('YYYY'),
+        count: temp,
+      })
+    }
+    ctx.body = {
+      msg: '',
+      data: res,
+      code: 200,
     }
   }
   getContributorEachYearCommit = async (ctx) => {

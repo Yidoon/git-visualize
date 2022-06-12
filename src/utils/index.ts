@@ -63,9 +63,12 @@ export const isFileExist = (filePath: string): boolean => {
 export const getPathInTmp = async (githubRepoUrl: string, pull = true) => {
   const { uname } = parseGitUrl(githubRepoUrl)
   let targetPath = `${TMP_REPO_DIR}/${uname}`
+
   const isExit = await isFolderExist(targetPath)
+
   const latestPullTime = latestPull.get(githubRepoUrl)?.updated_time
   const hasPassOneDay = latestPullTime && dayjs().unix() - latestPullTime > 60 * 60 * 24
+
   if (isExit) {
     console.time('git pull')
     if (pull && hasPassOneDay) {
@@ -248,8 +251,6 @@ export const getYearUntilNow = (start: number): number[] => {
  */
 export const getMonthsOfYear = (year: number) => {
   const _year = year || dayjs().year()
-  console.log(_year)
-
   const startYearUnix = dayjs().year(_year).startOf('year')
   const res = []
   for (let i = 0, len = 12; i < len; i++) {

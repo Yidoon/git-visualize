@@ -33,13 +33,29 @@ export default [
     action: commitController.getSpecYearCommitCount,
   },
   {
+    path: '/commit/commit_count',
+    method: 'get',
+    action: contributorController.getContributorCommitCount,
+  },
+  {
     path: '/file/catrgory',
     method: 'get',
     action: fileController.getFileCategory,
   },
   // Lists contributors to the specified repository and sorts them by the number of commits per contributor in descending order.
   {
-    path: '/contributor',
+    path: '/contributor/github',
+    method: 'get',
+    action: contributorController.getContributorsGithub,
+  },
+  // get contributors in local repositories
+  {
+    path: '/contributor/local',
+    method: 'get',
+    action: repoController.getRepoContributor,
+  },
+  {
+    path: '/contributors/local',
     method: 'get',
     action: contributorController.getContributors,
   },

@@ -41,7 +41,7 @@ class CommitController {
     }
   }
   getSpecYearCommitCount = async (ctx) => {
-    const { github_repo_url, year } = ctx.query
+    const { github_repo_url, year, contributor } = ctx.query
     if (!year) {
       ctx.body = {
         code: 200,
@@ -52,7 +52,11 @@ class CommitController {
     const path = await getPathInTmp(github_repo_url)
     const startMonth = dayjs().year(year).startOf('year').format('YYYY-MM-DD')
 
-    let params: { after: string; before: string } = { after: '', before: '' }
+    let params: { after: string; before: string; contributor: string } = {
+      after: '',
+      before: '',
+      contributor,
+    }
     let temp
     let baseMonth
     const res = []

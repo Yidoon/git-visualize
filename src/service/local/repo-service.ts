@@ -19,8 +19,7 @@ export default class RepoService {
   ): Promise<string[] | { contributor: string; count: number }[]> => {
     const cmdStr = CONTRIBUTOR_ANT_COMMIT_COUNT
     let res = []
-    const { top = 20, withCommitCount = false, sortBy = 'desc' } = opt || {}
-    console.log(top, 'top')
+    const { top, withCommitCount = false, sortBy = 'desc' } = opt || {}
 
     return new Promise((resolve, reject) => {
       exec(cmdStr, { cwd: path }, (err, stdout, stderr) => {
@@ -81,8 +80,6 @@ export default class RepoService {
     }
     const cmdStr = `git log ${paramsStr} --no-merges | wc -l`
 
-    console.log(cmdStr)
-
     return new Promise((resolve, reject) => {
       exec(cmdStr, { cwd: path }, (err, stdout, stderr) => {
         if (err) return reject(err)
@@ -104,7 +101,6 @@ export default class RepoService {
     }
 
     let cmdStr = `git log ${optParams} --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 -$2 } END { print loc,add,subs }'`
-    console.log(cmdStr)
     return new Promise((resolve, reject) => {
       exec(cmdStr, { cwd: path }, (err, stdout, stderr) => {
         if (err) {
