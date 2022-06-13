@@ -369,12 +369,26 @@ export default class RepoService {
     const res = await execCommand(cmdStr, { cwd: path })
     const arr = String(res).split('\n')
     const data = []
+    const countMap = {}
     arr.forEach((timeStr) => {
       let t = timeStr.split(' ')[1]
-      if (!data.includes(t)) {
-        data.push(t)
+      if (!countMap[t]) {
+        countMap[t] = 1
+      } else {
+        countMap[t] += 1
+      }
+      // if (!data.includes(t)) {
+      //   data.push({
+      //     timezone: t,
+      //     count: countMap[t],
+      //   })
+      // }
+    })
+    return Object.keys(countMap).map((item) => {
+      return {
+        timezone: item,
+        count: countMap[item],
       }
     })
-    return data
   }
 }

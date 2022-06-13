@@ -70,12 +70,13 @@ export const getPathInTmp = async (githubRepoUrl: string, pull = true) => {
   const hasPassOneDay = latestPullTime && dayjs().unix() - latestPullTime > 60 * 60 * 24
 
   if (isExit) {
-    console.time('git pull')
+    const labelTime = `gitPull_${+new Date()}`
+    console.time(labelTime)
     if (pull && hasPassOneDay) {
       await gitPull(targetPath)
       latestPull.refresh(githubRepoUrl)
     }
-    console.timeEnd('git pull')
+    console.timeEnd(labelTime)
     return targetPath
   } else {
     targetPath = await gitClone(githubRepoUrl)

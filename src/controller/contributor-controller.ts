@@ -21,7 +21,7 @@ class ContributorController {
 
     const path = await getPathInTmp(github_repo_url)
     const data = await this.localRepoService.getRepoContributor(path, {
-      withCommitCount: false,
+      withCommitCount: true,
     })
     ctx.body = {
       code: 200,
